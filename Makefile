@@ -14,6 +14,9 @@ else
   VIEWER = evince
 endif
 
+2: pdf
+	$(VIEWER) $(BASE_NAME).pdf &
+
 pdf: $(BASE_NAME).pdf
 	$(VIEWER) $(BASE_NAME).pdf &
 ps: $(BASE_NAME).ps
