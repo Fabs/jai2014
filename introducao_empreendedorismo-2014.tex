@@ -1,0 +1,42 @@
+\documentclass[brazil]{JAImod}
+\usepackage[latin1]{inputenc}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage{babel}
+\usepackage{apalike}
+\usepackage{paralist}
+\usepackage{scalefnt}
+
+\newenvironment{lightdescription}[0]
+{\renewcommand{\descriptionlabel}[1]{\hspace{\labelsep}\emph{##1}}\begin{description}}
+{\end{description}}
+
+\begin{document}
+
+\date{}
+
+\title{Empreendedorismo em Computação e Startups de Software}
+
+\author{Fabio Kon, Nelson Lago, Paulo Meirelles, Vanessa Sabino
+Departamento de Ciência da Computação --- IME/USP
+\{fabio.kon,lago,paulormm,bani\}@ime.usp.br
+}
+
+\maketitle
+
+\input{abstract}
+
+\input{introducao}
+
+\input{startup_enxuta}
+
+\input{preocupacoes_startup}
+
+\input{ecossistema}
+
+\input{final}
+
+\bibliographystyle{sbc-portug}
+\bibliography{freesoft}
+
+\end{document}

@@ -1,0 +1,22 @@
+(total Y páginas)
+
+Se alguma seção ficar um pouco menor do que o tamanho previsto, tudo bem. Ficar um maior é problema.
+
+1 Introdução (X páginas)
+
+2 Startup Enxuta (X páginas)
+
+3 Preocupações de uma startup (X páginas)
+
+4 Ecossistema (X páginas)
+
+Bibliografia: X páginas
+
+=============================
+Fábio       = 0
+Fabs        = 0
+Julian      = 0
+Roberto     = 0
+
+Bibliografia = 0
+
