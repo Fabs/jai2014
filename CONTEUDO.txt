@@ -1,6 +1,8 @@
 (total 40 páginas)
 
-Se alguma seção ficar um pouco menor do que o tamanho previsto, tudo bem. Ficar um maior é problema.
+Se alguma seção ficar um pouco menor do que o tamanho previsto, tudo bem. Ficar um maior é problema. - O hard limit são 50 linhas:
+
+A submissão: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkziTKWN-KpvYUedSjW42iRgB5qwpsjzvhGhM/edit?usp=drive_web
 
 1 Introdução (5 páginas)
 
