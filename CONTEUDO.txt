@@ -1,61 +1,61 @@
-(total 40 p·ginas)
+(total 40 p√°ginas)
 
-Se alguma seÁ„o ficar um pouco menor do que o tamanho previsto, tudo bem. Ficar um maior È problema. - O hard limit s„o 50 linhas:
+- O hard limit s√£o 50 p√°ginas.
+[Author/Revisor]
 
-A submiss„o: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkziTKWN-KpvYUedSjW42iRgB5qwpsjzvhGhM/edit?usp=drive_web
+A submiss√£o: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkziTKWN-KpvYUedSjW42iRgB5qwpsjzvhGhM/edit?usp=drive_web
 
-1 IntroduÁ„o (5 p·ginas)
+1 Introdu√ß√£o (5 p√°ginas)
 
-    1.1 IntroduÁ„o ao Empreendedorismo
+    1.1 Introdu√ß√£o ao Empreendedorismo
     1.2 Empreendedorismo em grandes empresas
     1.3 Empreendedorismo no governo e ONGs
     1.4 Empreendedorismo social
 
-2 Startup Enxuta (10 p·ginas)
-    
-    2.1 A Startup Enxuta
-    2.2 HistÛrico
-    2.3 O que È uma startup
-    2.4 O MÈtodo Lean Startup
-    2.5 Pr·ticas do MÈtodo Lean Startup
+2 Startup Enxuta (10 p√°ginas)
 
-3 PreocupaÁıes de uma startup (15 p·ginas)
+    [Fabs/?] 2.1 A Startup Enxuta
+    [Fabs/?] 2.2 Hist√≥rico
+    [Fabs/?] 2.3 O que √© uma startup
+    [Fabs/?] 2.4 O M√©todo Lean Startup
+    [Fabs/?] 2.5 Pr√°ticas do M√©todo Lean Startup
 
-    3.1 Clientes
-    3.1.1 Desenvolvimento de Cliente (Customer Development)
-    3.1.2 Descoberta de Clientes
-    3.1.3 ValidaÁ„o de Clientes
-    3.1.4 CriaÁ„o de Clientes
-    3.1.5 ConstruÁ„o da Empresa
-    3.1.6 MÈtricas de uso e o funÌl de convers„o AARRR
-    3.1.7 An·lise de Coorte
-    3.1.8 Encaixe Problema/SoluÁ„o (Problem/Solution FIT) [Running Lean]
+3 Preocupa√ß√µes de uma startup (15 p√°ginas)
+
+    [?/Fabs] 3.1 Clientes
+    [?/Fabs] 3.1.1 Desenvolvimento de Cliente (Customer Development)
+    [?/Fabs] 3.1.2 Descoberta de Clientes
+    [?/Fabs] 3.1.3 Valida√ß√£o de Clientes
+    [?/Fabs] 3.1.4 Cria√ß√£o de Clientes
+    [?/Fabs] 3.1.5 Constru√ß√£o da Empresa
+    [?/Fabs] 3.1.6 M√©tricas de uso e o fun√≠l de convers√£o AARRR
+    [?/Fabs] 3.1.7 An√°lise de Coorte
+    [?/Fabs] 3.1.8 Encaixe Problema/Solu√ß√£o (Problem/Solution FIT) [Running Lean]
 
     3.2 Produto
     3.2.1 MVP
-    3.2.2 MÈtodos ¡geis
+    3.2.2 M√©todos √Ågeis
     3.2.3 Prototipagem em papel
-    3.2.4 Encaixe Produto/LanÁamento (Product/Launch)
+    3.2.4 Encaixe Produto/Lan√ßamento (Product/Launch)
 
-    3.3 NegÛcio
-    3.3.1 Painel de NegÛcios (Business Model Canvas)
-    3.3.2 Encaixe Produto/Mercado (Product/Market FIT)
+    [Fabs/?] 3.3 Neg√≥cio
+    [Fabs/?] 3.3.1 Painel de Neg√≥cios (Business Model Canvas)
+    [Fabs/?] 3.3.2 Encaixe Produto/Mercado (Product/Market FIT)
 
-4 Ecossistema (10 p·ginas)
+4 Ecossistema (10 p√°ginas)
 
-    4.1 Centros empreendedores 
+    4.1 Centros empreendedores
     4.2 Perfil do Empreendedor e de Times Fundadores
     4.3 Incubadoras e Aceleradoras
     4.4 Financiamento
-    4.5 O Cen·rio Brasileiro
+    4.5 O Cen√°rio Brasileiro
 
-Bibliografia: X p·ginas
+Bibliografia: X p√°ginas
 
 =============================
-F·bio       = 0
+F√°bio       = 0
 Fabs        = 0
 Julian      = 0
 Roberto     = 0
 
 Bibliografia = 0
-
