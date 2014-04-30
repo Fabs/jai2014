@@ -29,14 +29,14 @@ A submissão: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkz
     [Roberto/Fabio] 3.1.4 Criação de Clientes
     [Roberto/Fabio] 3.1.5 Construção da Empresa
     [Roberto/Fabio] 3.1.6 Métricas de uso e o funíl de conversão AARRR
-    [?/Fabio] 3.1.7 Análise de Coorte
-    [?/Fabio] 3.1.8 Encaixe Problema/Solução (Problem/Solution FIT) [Running Lean]
+    [Julian/Fabio] 3.1.7 Análise de Coorte
+    [Julian/Fabio] 3.1.8 Encaixe Problema/Solução (Problem/Solution FIT) [Running Lean]
 
-    [?/Roberto] 3.2 Produto
-    [?/Roberto] 3.2.1 MVP
-    [?/Roberto] 3.2.2 Métodos Ágeis
-    [?/Roberto] 3.2.3 Prototipagem em papel
-    [?/Roberto] 3.2.4 Encaixe Produto/Lançamento (Product/Launch)
+    [Julian/Roberto] 3.2 Produto
+    [Julian/Roberto] 3.2.1 MVP
+    [Julian/Roberto] 3.2.2 Métodos Ágeis
+    [Julian/Roberto] 3.2.3 Prototipagem em papel
+    [Julian/Roberto] 3.2.4 Encaixe Produto/Lançamento (Product/Launch)
 
     [Fabs/?] 3.3 Negócio
     [Fabs/?] 3.3.1 Painel de Negócios (Business Model Canvas)
