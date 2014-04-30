@@ -8,7 +8,7 @@ A submissão: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkz
 1 Introdução (5 páginas)
 
     [Fabio/Fabs] 1.1 Introdução ao Empreendedorismo
-    [?/Fabio] 1.2 Empreendedorismo em grandes empresas
+    [Fabs/Fabio] 1.2 Empreendedorismo em grandes empresas
     [?/Fabio] 1.3 Empreendedorismo no governo e ONGs
     [?/Fabio] 1.4 Empreendedorismo social
 
