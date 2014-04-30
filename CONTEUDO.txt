@@ -14,11 +14,11 @@ A submissão: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkz
 
 2 Startup Enxuta (10 páginas)
 
-    [Fabs/?] 2.1 A Startup Enxuta
-    [Fabs/?] 2.2 Histórico
-    [Fabs/?] 2.3 O que é uma startup
-    [Fabs/?] 2.4 O Método Lean Startup
-    [Fabs/?] 2.5 Práticas do Método Lean Startup
+    [Fabs/Julian] 2.1 A Startup Enxuta
+    [Fabs/Julian] 2.2 Histórico
+    [Fabs/Julian] 2.3 O que é uma startup
+    [Fabs/Julian] 2.4 O Método Lean Startup
+    [Fabs/Julian] 2.5 Práticas do Método Lean Startup
 
 3 Preocupações de uma startup (15 páginas)
 
@@ -38,9 +38,9 @@ A submissão: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkz
     [Julian/Roberto] 3.2.3 Prototipagem em papel
     [Julian/Roberto] 3.2.4 Encaixe Produto/Lançamento (Product/Launch)
 
-    [Fabs/?] 3.3 Negócio
-    [Fabs/?] 3.3.1 Painel de Negócios (Business Model Canvas)
-    [Fabs/?] 3.3.2 Encaixe Produto/Mercado (Product/Market FIT)
+    [Fabs/Julian] 3.3 Negócio
+    [Fabs/Julian] 3.3.1 Painel de Negócios (Business Model Canvas)
+    [Fabs/Julian] 3.3.2 Encaixe Produto/Mercado (Product/Market FIT)
 
 4 Ecossistema (10 páginas)
 
