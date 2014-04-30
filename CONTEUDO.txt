@@ -22,21 +22,21 @@ A submissão: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkz
 
 3 Preocupações de uma startup (15 páginas)
 
-    [?/Fabs] 3.1 Clientes
-    [?/Fabs] 3.1.1 Desenvolvimento de Cliente (Customer Development)
-    [?/Fabs] 3.1.2 Descoberta de Clientes
-    [?/Fabs] 3.1.3 Validação de Clientes
-    [?/Fabio] 3.1.4 Criação de Clientes
-    [?/Fabio] 3.1.5 Construção da Empresa
-    [?/Fabio] 3.1.6 Métricas de uso e o funíl de conversão AARRR
+    [Roberto/Fabs] 3.1 Clientes
+    [Roberto/Fabs] 3.1.1 Desenvolvimento de Cliente (Customer Development)
+    [Roberto/Fabs] 3.1.2 Descoberta de Clientes
+    [Roberto/Fabs] 3.1.3 Validação de Clientes
+    [Roberto/Fabio] 3.1.4 Criação de Clientes
+    [Roberto/Fabio] 3.1.5 Construção da Empresa
+    [Roberto/Fabio] 3.1.6 Métricas de uso e o funíl de conversão AARRR
     [?/Fabio] 3.1.7 Análise de Coorte
     [?/Fabio] 3.1.8 Encaixe Problema/Solução (Problem/Solution FIT) [Running Lean]
 
-    3.2 Produto
-    3.2.1 MVP
-    3.2.2 Métodos Ágeis
-    3.2.3 Prototipagem em papel
-    3.2.4 Encaixe Produto/Lançamento (Product/Launch)
+    [?/Roberto] 3.2 Produto
+    [?/Roberto] 3.2.1 MVP
+    [?/Roberto] 3.2.2 Métodos Ágeis
+    [?/Roberto] 3.2.3 Prototipagem em papel
+    [?/Roberto] 3.2.4 Encaixe Produto/Lançamento (Product/Launch)
 
     [Fabs/?] 3.3 Negócio
     [Fabs/?] 3.3.1 Painel de Negócios (Business Model Canvas)
@@ -46,12 +46,12 @@ A submissão: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkz
 
     [Fabio/Fabs] 4.1 Centros empreendedores
     [Fabio/Fabs] 4.2 Perfil do Empreendedor e de Times Fundadores
-    [Fabio/?] 4.3 Incubadoras e Aceleradoras
-    [Fabio/?] 4.4 Financiamento
+    [Fabio/Roberto] 4.3 Incubadoras e Aceleradoras
+    [Fabio/Roberto] 4.4 Financiamento
     [Fabio/Fabs] 4.5 O Cenário Brasileiro
 
 5 Conclusões
-    [Fabio/?] 5.* Tudo
+    [Fabio/Roberto] 5.* Tudo
 
 
 Bibliografia: X páginas
