@@ -14,9 +14,9 @@ A submissão: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkz
 
 2 Startup Enxuta (10 páginas)
 
-    [Fabs/Julian] 2.1 IntroduçÃo                        [1 página]
+    [Fabs/Julian] 2.1 Introdução                        [2 página]
     [Fabs/Julian] 2.2 Histórico                         [2 página]
-    [Fabs/Julian] 2.3 O que é uma startup               [3 página]
+    [Fabs/Julian] 2.3 O que é uma startup               [2 página]
     [Fabs/Julian] 2.4 O Método Lean Startup             [2 página]
     [Fabs/Julian] 2.5 Práticas do Método Lean Startup   [2 página]
 
