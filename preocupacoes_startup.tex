@@ -263,7 +263,6 @@ A complexidade pode variar de uma simples página web contendo um anúncio até gra
 
 Existem diversas técnicas para se criar um MPV\cite{???}, a seguir enumeramos algumas descritas por Ries\cite{RIES}.
 
-
 {\bf Teste de Fumaça} (\emph{Smoke Tests}) - No início da idealização do produto há casos em que a dúvida em relação à existência de consumidores para o novo produto é muito alta. Pode-se então criar uma simples página web e realizar alguns testes com campanhas de marketing online (Ex., Google AdWords e Facebook) para medir quantas pessoas estão interessadas em testar o novo produto. Esta técnica foi utilizada, por exemplo, pelo site www.buffer.com\cite{http://blog.bufferapp.com/idea-to-paying-customers-in-7-weeks-how-we-did-it}. O objetivo era medir se usuários estavam dispostos a pagar pelo serviço de agendamento de posts em redes sociais.
 
 
@@ -274,8 +273,9 @@ Existem diversas técnicas para se criar um MPV\cite{???}, a seguir enumeramos al
 {\bf MVP Recepcionista} (\emph{Concierge}) e MVP Mágico de Oz - Há casos em que é preciso acompanhar de perto a necessidade do cliente para tentar evoluir o produto que está sendo criado. O MVP Recepcionista assume que no início dos trabalhos o primeiro produto pode ser feito manualmento pela equipe da startup. Esse método, que deve ser comparado a fase de experimentação, pois consiste em realizar manualmente algumas das etapas mais custosas do processo, claramente essa abordagem não é eficiente e tampouco é escalável, mas é uma maneira rápida de experimentar. 
 Um exemplo na elaboração de MVP Mágico de Oz é o e-commerce americano Zappos. Os idealizadores pretendiam testar o mercado de vendas de sapatos on-line, mas sem investir em processos custosos de automação e sem manter um grande estoque. Nessa fase, foi feita um parceria com um comerciante local para prover o inventário de sapatos e a cada compra online era necessário ir a até loja, comprar o sapato e entregar.
 
+{\bf MVP Prototipagem em Papel} -  TODO TODO TODO
 
-Em todos esses cenários é imprescindível coletar informações de acordo com as métricas descritas no capítulo\ref{METRICAS}.
+%Em todos esses cenários é imprescindível coletar informações de acordo com as métricas descritas no capítulo\ref{METRICAS}.
 
 %O termo menor produto viável não deve ser entendido como o produto com a menor quantidade de funcionalidades, ou produto simples.
 
@@ -289,8 +289,8 @@ Nesta seção abordaremos os conceitos e a literatura sobre métodos ágeis de desen
 
 O conjunto de práticas que apresentamos são muito dinâmicas, em diversas ocasiões são necessárias modificações no plano inicial de trabalho para se adequar ào plano de negócios em constante evolução. No contexto de desenvolvimento de software é importante adotar um processo que seja flexível o suficiente para se adequar à mudanças e à velocidade de evolução do produto.
 
-As características chave da metodologia de desenvolvimento adotata deve favorecer a criação de protótipos, à realização de testes e experimentos com os clientes,  prover entregas frequêntes e incrementais, além de manter uma comunicação eficiente entre os entes do projeto.
-Essas características estão de acordo com as valores propostas pelo Manifesto ágil \cite{}:
+As características chave da metodologia de desenvolvimento adotata deve favorecer a criação de protótipos, à realização de testes e experimentos com os clientes,  prover entregas frequentes e incrementais, além de manter uma comunicação eficiente entre os entes do projeto.
+Essas características estão de acordo com as valores propostos pelo Manifesto ágil \cite{}:
 
 - Indivíduos e interação entre eles mais que processos e ferramentas
 
@@ -301,11 +301,13 @@ Essas características estão de acordo com as valores propostas pelo Manifesto ág
 - Responder a mudanças mais que seguir um plano
 
 
-O mercado de software já tem trabalhado com diversas metodologias que dão suporte à essa dinamicidade. Entre elas temos Scrum, Kanban, eXtreme Programming. 
+O mercado de software já tem trabalhado com diversas metodologias que dão suporte à essa dinamicidade. Entre elas temos Scrum, Kanban, eXtreme Programming, que são descritas a seguir.
+
+
 
 \textbf{Scrum}\cite{???} - é um framework para organização e gerenciamento de projetos, iterativo e simples. No contexto de software, o objetivo é entregar novas funcionalidades de maneira incremental ao final de cada ciclo de desenvolvimento, ou iteração (\emph{sprint}). Scrum não é um processo preescritivo, é um conjunto de práticas que dão visibilidade ao andamento do projeto. É recomendada em projetos empíricos, ou seja, ambientes com muita incerteza, caóticos e de difícil previsibilidade. 
 
-Existem três papeis principais no Scrum: o  Dono do Produto (\emph{Product Owner}, o   Mestre de Scrum \emph{Scrum Master}) e a equipe de desenvolvimento. 
+Existem três papeis principais no Scrum: o  Dono do Produto (\emph{Product Owner}, o   Mestre de Scrum (\emph{Scrum Master}) e a equipe de desenvolvimento. 
 
 \begin{itemize}
 \item[ \textbf{Dono do Produto}] - tem um papel centralizador e estratégico,  ele define a visão do produto, representa os clientes, entende do negócio e gerencia o backlog. Geralmente uma só pessoa desempenha este papel, com intuito de agilizar as tomadas de decisão;  
@@ -313,9 +315,9 @@ Existem três papeis principais no Scrum: o  Dono do Produto (\emph{Product Owner
 \item[ \textbf{Equipe de Desenvolvimento}] -  responsável pelas entregas, a equipe deve ser multi-funcional, auto-organizada e comprometida com o objetivo comum. Geralmente são pequenas (até 10 integrantes).
 \end{itemize}
 
-O principal artefato utilizado é \emph{Backlog do Produto}, é uma lista geral de funcionalidades (tarefas, histórias, casos de uso, etc.) mantida e priorizada pelo Dono do Produto. O Backlog do Produto também é gerado de incrementalmente.
+O principal artefato utilizado é o \emph{Backlog do Produto}, que é uma lista geral de funcionalidades (tarefas, histórias, casos de uso, etc.) mantida e priorizada pelo Dono do Produto. O Backlog do Produto também é gerado de incrementalmente.
 
-O andamento do processo consiste numa sequência de ciclos de trabalho com duração pré-determinada (usualmente usa-se 2 ou 3 semanas). Ao início de cada ciclo é feita uma reunião de estimativa para priorizar e rever as estimativas dos itens mais importantos do Backlog do produto. Participam desta reunião o Mestre de Scrum e a equipe.
+O andamento do processo consiste numa sequência de ciclos de trabalho com duração pré-determinada (usualmente de 2 ou 3 semanas). Ao início de cada ciclo é feita uma reunião de estimativa para priorizar e rever as estimativas dos itens mais importantos do Backlog do produto. Participam desta reunião o Mestre de Scrum e a equipe.
 
 Com os itens estimados, é feita a Reunião de Planejamento para escolher os itens que irão fazer parte do \emph{Backlog da Iteração}, de tal forma que os itens se encaixem na duração prevista da iteração. Todos participam desta reunião. Os itens escolhidos são particionados em tarefas e o desenvolvimento é iniciado. Recomenda-se não alterar os itens escolhidos durante a iteração.
 
@@ -334,23 +336,15 @@ O objetivo principal ao final cada iteração e gerar software que agrega valor ao
 
 \textbf{Kanban}\cite{/???} --- baseado nas práticas Lean\cite{???} da linha de produção da Toyota\cite{???}, no nosso contexo Kanban é um método de desenvolvimento que tem como objetivo deixar o processo mais enxuto e fluido, sem muita rigidez e com um forte apelo à visualização do trabalho em andamento.
 
-O método define um fluxo de trabalho contínuo, em que as entregas são feitas a todo momento. O importante é limitar a carga de trabalho que está sendo realizada simultaneamente (work-in-progress). Essa limitação propicia um ter mais foco nas tarefas que estão sendo executadas.
+O método define um fluxo de trabalho contínuo, em que as entregas são feitas a todo momento. O importante é limitar a carga de trabalho que está sendo realizada simultaneamente (work-in-progress). Essa limitação propicia  mais foco nas tarefas que estão sendo executadas.
 
 Na prática, é preciso definir um quadro de apoio com os diferentes estágios que uma funcionalidade precisa passar para ser executa (ex., backlog, selecionado, desenvolvimento, validação, entrega, feito).
 Apesar de nao prescrever reuniões ou cerimônias, mesclar com algumas práticas de Scrum e XP pode ser necessário para introduzir um pouco de disciplina no processo, por exemplo, as reuniões diárias e a retrospectiva de Scrum.
 
 
 
-\subsubsection{Prototipagem em papel}
-
-Explicamos como realizar protótipos em papel para testar a usabilidade de um produto desde o início do seu desenvolvimento, e as vantagens em termos de custo e agilidade que os protótipos em papel apresentam em relação aos protótipos de software.
-
-TODO: AINDA EM ESCRITA....
 
 
-TODO
-
-TODO
 
 \subsubsection{Encaixe Produto/Lançamento (Product/Launch)}
 
