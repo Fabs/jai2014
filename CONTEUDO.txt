@@ -35,7 +35,7 @@ A submissão: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkz
     [Julian/Roberto] 3.2 Produto
     [Julian/Roberto] 3.2.1 MVP
     [Julian/Roberto] 3.2.2 Métodos Ágeis
-    [Julian/Roberto] 3.2.3 Prototipagem em papel
+    [Julian/Roberto] 3.2.3 Prototipagem em papel <--- movi para dentro de MVP
     [Julian/Roberto] 3.2.4 Encaixe Produto/Lançamento (Product/Launch)
 
     [Fabs/Julian] 3.3 Negócio                                       [0 páginas]
