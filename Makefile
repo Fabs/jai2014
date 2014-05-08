@@ -37,6 +37,8 @@ $(BASE_NAME).ps: $(BASE_NAME).tex
 	$(LATEX) $< 
 	$(LATEX) $<
 	$(LATEX) $<
+
+remake: clean pdf
 	
 clean:
 	rm -f $(BASE_NAME)*.ps $(BASE_NAME)*.dvi *.log \
