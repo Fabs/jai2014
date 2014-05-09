@@ -1,11 +1,9 @@
 %!TEX encoding = IsoLatin
-\section{Preocupações da Startup}
+\section{Desenvolvimento do Cliente}
 
 Nesta seção procuramos detalhar as principais preocupações que uma startup de sucesso deve ter. Como definimos anteriormente, uma startup é uma organização temporária em busca de um modelo de negócios rentável, repetitível e escalável. A startup deve então otimizar esta busca para que ela utilize a menor quantidade de recursos e dê resultados o mais rápido possível. Nas próximas páginas vamos explicar como isto pode ser feito de forma sistemática. 
 
-\subsection{Clientes}
-responsável:Roberto  revisor: Fabs\\
-(não sei muito bem o que escrever nesta seção. Acho que podia chamar customer development desde este ponto)
+\subsection{Metodologia}
 
 Os clientes são a razão de existir de qualquer empresa. Mas em uma startup, os clientes podem ser considerados como co-fundadores: eles não vão apenas utilizar ou comprar o seu produto, eles vão orientar o desenvolvimento, determinar as funcionalidades que devem incluídas, e principalmente, \textbf{definir o seu modelo de negócios}.
 
@@ -32,7 +30,7 @@ Por estas razões, a principal atividade de uma startup após a sua fundação deve 
 	\item copiar um modelo de sucesso em outro país
 	\end{itemize}
 \item \textbf{As métricas de uma startup são diferentes das de uma grande empresa}\\ O que deve ser medido em uma startup é o progresso da transformação de hipóteses em fatos e os resultados dos testes de validação, ao invés de planilhas de perdas e lucros, fluxo de caixa ou balancetes.
-\item \textbf{Tome decisões rapidamente e utilize ciclos curtos}\\ A velocidade é importante em uma startup pois a cada dia existe menos dinheiro disponível no caixa da empresa. Quanto mais rápido os ciclos de "aprendizagem, construção e pivô" forem realizados, mais rapidamente a startup encontrará seu modelo de negócios.
+\item \textbf{Tome decisões rapidamente e utilize ciclos curtos}\\ A velocidade é importante em uma startup pois a cada dia existe menos dinheiro disponível no caixa da empresa. Quanto mais rápido os ciclos de "Construir-Medir-Aprender"  forem realizados, mais rapidamente a startup encontrará seu modelo de negócios.
 \item \textbf{Seja apaixonado}\\ Uma startup sem pessoas motivadas e apaixonadas pelo que fazem está fadada ao fracasso. Os fundadores de startup são diferentes, são pessoas preocupadas 24/7 em como criar o melhor produto e em como atender às necessidades dos clientes.
 \item \textbf{Cargos em startups são diferentes de cargos em grandes empresas}\\ Startups precisam de executivos acostumados à mudança e que saibam desempenhar diversas funções diferente na empresa, às vezes no mesmo dia.
 \item \textbf{Guarde o máximo de dinheiro enquanto puder. E então gaste}\\ O objetivo do desenvolvimento de cliente não é o de não gastar dinheiro, mas de economizar enquanto a empresa busca por seu modelo de negócios, e então gastar tudo na execução.
@@ -40,258 +38,19 @@ Por estas razões, a principal atividade de uma startup após a sua fundação deve 
 \item \textbf{O sucesso do desenvolvimento de cliente começa com o comprometimento}\\ A filosofia de busca de um modelo de negócios do desenvolvimento de cliente pode confundir fundadores, engenheiros ou investidores acostumados a seguir um plano. Para que ela tenha sucesso, todos envolvidos com a startup devem estar comprometidos com a filosofia e devem aceitar que o processo é tortuoso e pode em alguns casos durar anos.
 \end{enumerate}
 
-O processo de desenvolvimento de cliente tem 2 etapas: a etapa de busca de um modelo de negócios e a etapa de execução, que é onde a startup acelera seu desenvolvimento utilizando o modelo de negócios descoberto na fase anterior. A busca de um modelo de negócios tem duas fases: a fase de descoberta de clientes, detalhada na seção~\ref{descoberta} e a fase de validação de clientes, que descrevemos na seção~\ref{validacao}. Como veremos mais adiante, estas fases se repetem até que a startup encontre seu modelo de negócios repetitível, escalável e rentável. A etapa de execução também contém duas fases, a de criação de clientes, detalhada na seção~\ref{criacao} e a fase de construção da empresa, descrita na seção~\ref{construcao}.
+O processo de desenvolvimento de cliente tem 2 etapas: a etapa de busca de um modelo de negócios e a etapa de execução, que é onde a startup acelera seu desenvolvimento utilizando o modelo de negócios descoberto na fase anterior. A busca de um modelo de negócios tem duas fases: a fase de descoberta de clientes, detalhada na seção~\ref{descoberta} e a fase de validação de clientes, que descrevemos na seção~\ref{validacao}. Como veremos mais adiante, estas fases se repetem até que a startup encontre seu modelo de negócios repetitível, escalável e rentável. A etapa de execução também contém duas fases, a de criação de clientes e a fase de construção da empresa.
 
-\subsubsection{Desenvolvimento de Cliente (Customer Development)}
-responsável:Roberto revisor: Fabs
-(prá mim é a seção precedente. O que vocês acham?)
+\textbf{não estamos discutindo sobre essas duas últimas:  criação de clientes e a fase de construcao da empresa.}
 
-\subsubsection{Descoberta de Clientes}
-\label{descoberta}
-responsável:Roberto revisor: Fabs\\
-O objetivo da descoberta de clientes é o de identificar se existe um problema a ser resolvido, se este problema pode ser resolvido, e se existe um número suficiente de pessoas que utilizariam um produto que resolva o problema. A descoberta de clientes obtém respostas a estas questões sistematicamente através de um processo contínuo de teste e validação com potenciais clientes.
 
-O processo de descoberta de clientes é formado por 3 fases que descreveremos a seguir: (i) criação de um painel de modelo de negócios detalhando a visão dos fundadores e suas hipóteses, (ii) teste do seu problema e sua solução, validando as hipóteses do modelo de negócios, (iii) avaliação dos resultados e decisão de obter mais informações ou seguir para o passo seguinte, a validação de clientes (descrita na seção~\ref{validacao}).
+\subsection{Métodos Ágeis}
 
-\paragraph{Detalhando a visão dos fundadores}
+O conjunto de práticas da metodologia enxuta são muito dinâmicas, durante os ciclos "Construir-Medir-Aprender"~são necessárias modificações no plano inicial de trabalho para se adequar ao plano de negócios que também está em constante evolução. No contexto de software é importante adotar um processo de desenvolvimento que seja flexível o suficiente para se adequar às mudanças e à velocidade de evolução do plano de negócios.
 
-Inicialmente, os fundadores devem fazer uma estimativa aproximada do tamanho do mercado para identificar se a oportunidade é grande o suficiente para a criação de uma startup. Para isso é importante que os fundadores conheçam os termos \textit{TAM}, \textit{SAM} e \textit{Target Market}. O \textit{TAM} é o \textit{Total Addressable Market} ou o tamanho total do mercado. O \textit{SAM} é o \textit{Served Available Market} ou a fatia do mercado que eu posso alcançar através do meu canal de vendas. Finalmente, o \textit{Target Market} é o mercado alvo, ou a fatia do mercado que provavelmente utilizará o produto. Suponha que a startup queira criar um serviço de compartilhamento de fotos de pesca através de uma aplicação para smartphones android. O \textit{TAM} seria o total de pessoas que pescam por hobby e possuem um smartphone. O \textit{SAM} seria a porcentagem destes usuários que possuem um smartphone android. O \textit{Target Market} seria a porcentagem destas pessoas que participam de outras redes sociais e teriam interesse em participar de uma rede social específica para a pesca.
-
-Para estimar o tamanho do mercado, você pode usar pesquisas de mercado já existentes (mas não as previsões de evolução do mercado pois elas frequentemente estão erradas) ou ferramentas como o Google Trends~\footnote{\url{www.google.com/trends}} ou o Google AdWords Keyword Planner~\footnote{\url{adwords.google.com/KeywordPlanner}}.
-
-Se a oportunidade for suficientemente grande, formule as demais hipóteses do negócio utilizando um painel. Nós utilizamos o painel Lean, ou \textit{Lean Canvas}~\ref{canvas}, criado por Ash Maurya, que é um aperfeiçoamento do painel de modelo de negócios proposto por Alex Osterwalder e adotado por Steve Blank em~\cite{Blank2012} com maior foco nos temas de maior risco para startups.
-
-\begin{figure}
-\caption{Painel de modelo de negócios (vale à pena?)}
-\label{canvas}
-\end{figure}
-
-Durante o preenchimento deste painel os fundadores devem tomar algumas decisões importantes para o sucesso do processo de desenvolvimento de cliente. Ao definir a proposta de valor do produto, os fundadores devem também definir um produto minimamente viável, ou \textit{MVP}. O \textit{MVP} é o menor grupo de funcionalidades que podem funcionar como um produto e resolverem uma parte importante do problema.
-
-A ProductHunt~\footnote{\url{www.producthunt.co}} é uma startup que organiza um diretório colaborativo de novidades em produtos de tecnologia de diferentes áreas, curados por especialistas de cada área. Para testar a viabilidade da ideia, a ProductHunt construiu um MVP: uma lista de difusão por emails organizada por um dos fundadores da empresa. Contribuidores enviavam emails com links de produtos interessantes, e no final do dia um sumário era enviado por email para cada membro da lista. Apenas quando os participantes desta lista de emails se entusiasmaram com a ideia de receber novas informações sobre produtos inovadores todos os dias é que os fundadores decidiram começar a desenvolver o site para automatizar o processo.
-
-Quando for definir seu \textit{MVP}, comece por definir as hipóteses que você quer testar. No caso da ProductHunt, as hipóteses eram que especialistas em tecnologia gostariam de compartilhar seus achados com outras pessoas, e que amantes de tecnologia gostariam de saber das novidades. É importante também especificar a métrica que será utilizada para definir se o teste será positivo ou negativo. A ProductHunt, por exemplo, pode ter definido que se 20\% dos especialistas convidados fornecessem ao menos 3 recomendações de produto durante o período de testes a primeira hipótese seria validada, e que se ao menos 50\% das pessoas demonstrassem interesse em receber a lista de recomendações, a segunda hipótese seria validada.
-
-Quando for definir seus segmentos de clientes (\textit{Customer Segments}) descreva o perfil de seus potenciais consumidores (por exemplo donas de casa de mais de 30 anos com um ou mais filhos) e imagine um dia típico na vida deste tipo de consumidor. Isto ajuda o fundador a descobrir como e quando o produto será usado, e quais estratégias podem ser usadas para obter novos clientes.
-
-Ao definir os canais de venda do seu produto (\textit{Channels}) não defina apenas como o produto chegará ao consumidor, mas também estratégias para aquisição, ativação e retenção de usuários, além de estratégias para a recomendação do seu produto. Mais detalhes sobre estas categorias de obtenção de usuários e como medir o seu funcionamento na Seção~\ref{aarrr}.
-
-Finalmente, este painel de modelo de negócios será atualizado à medida que os fundadores realizarem experimentos e obtiverem retornos dos potenciais clientes. É importante documentar as diversas versões de painéis de modelo de negócios geradas durante o processo de desenvolvimento de clientes para que os fundadores possam ter uma visão completa da evolução da empresa durante o processo.
-
-\paragraph{Saia do escritório e veja se as pessoas se importam com o problema}
-
-Uma vez definidas suas hipóteses, é hora de validá-las com futuros clientes reais. Estes clientes não estão no seu escritório, então é importante que os fundadores saiam do escritório e tenham contato em primeira mão com os potenciais clientes.
-
-Defina experimentos para validar cada hipótese do plano de negócios. Não se esqueça que estes experimentos devem ser fáceis de realizar e devem dar um resultado rapidamente. Por exemplo, para validar sua hipótese de segmento de clientes você pode criar uma pequena campanha de marketing usando o Facebook Ads ou o Google AdWords direcionadas a grupos diferentes e medir qual o segmento de clientes que dá o maior retorno.
-
-Para validar sua proposta de valor, crie diferentes versões de uma página de apresentação do produto (\textit{landing pages}) e meça aquela que recebe o maior número de acessos. Para identificar se seus potenciais clientes estão em busca de um produto que resolva o problema, adicione um campo de inscrição para testes da versão beta do produto e verifique a porcentagem das pessoas que acessam a página que se inscrevem para a campanha de testes beta. Utilize o Google Analytics para medir estes valores.
-
-Não confie apenas em dados obtidos em campanhas de marketing ou números de acessos à sua \textit{landing page}. Faça entrevistas presenciais com seus potenciais clientes e analise as reações deles à apresentação do problema e ao seu \textit{MVP}. Abra canais de retorno dos clientes (como caixas de comentários dentro do \textit{MVP} ou contas de email) e leve em consideração todos retornos obtidos.
-
-\paragraph{Analise os resultados e decida se deve pivotar ou continuar}
-
-Uma vez que os testes foram realizados, analise todos os resultados e defina as hipóteses que foram validadas ou refutadas. Questione tudo, fundadores de sucesso são brutalmente honestos consigo mesmos. Deixe o ego de lado e ouça o que os clientes estão dizendo. Eles realmente comprariam o seu produto? As funcionalidades do seu \textit{MVP} são realmente importantes para eles?
-
-A EasyTaxi~\footnote{\url{www.easytaxi.com}} é uma das maiores empresas de serviços móveis para conexão entre motoristas de táxi e passageiros no mundo. A EasyTaxi foi criada com um objetivo claro: fornecer soluções móveis para cooperativas de táxis, em substituição ao sistema de rádio que era utilizado até então. A EasyTaxi então saiu do prédio e foi validar suas hipóteses com as cooperativas de táxi e descobriu que este modelo de negócios nunca iria funcionar: as regras de alocação de uma viagem entre os taxistas cooperados eram muito complexas e tinham como objetivo repartir igualmente as viagens entre os membros da cooperativa e não minimizar o tempo de atendimento ao cliente. A EasyTaxi decidiu então pivotar: ao invés de fornecer aplicações móveis às cooperativas, eles decidiram mudar de mercado e fornecer aplicações diretamente aos motoristas de táxi. Criaram um novo MVP, saíram do prédio de novo e desta vez deu certo. Hoje a EasyTaxi está presente em 27 países, tem uma equipe de cerca de 300 pessoas e fornece um táxi ao cliente entre 5 a 10 minutos.
-
-Após cada período de validação de hipóteses reúna os fundadores para avaliar os resultados e tomar uma decisão: a startup deve prosseguir com o modelo de negócios atual ou deve atualizar o modelo de negócios para se adaptar ao resultado dos testes? Este ponto do processo de desenvolvimento do cliente também é chamado de ''pivotar ou continuar" e é essencial para o sucesso da startup. Se a startup decidir pivotar, é necessário definir novas hipóteses, novos testes e sair do escritório para validá-las novamente. Caso a startup decida continuar com seu modelo de negócios, podem ser necessários novos testes para validar hipóteses ainda não validadas ou para validar novas hipóteses criadas a partir da análise dos resultados dos testes.
-
-Se a startup está segura que todas hipóteses relacionadas ao problema e à solução do problema foram validadas ela deve seguir para a próxima fase do processo de desenvolvimento de clientes, chamada de validação de clientes.
-
-\subsubsection{Validação de Clientes}
-\label{validacao}
-responsável:Roberto revisor: Fabs\\
-
-O objetivo principal da fase de validação de clientes é o de testar a venda do seu produto. Na fase anterior os fundadores verificaram que existe um problema a ser resolvido, que a quantidade de pessoas interessadas na resolução deste problema é grande o suficiente, e que a solução proposta pela startup interessa estas pessoas. Mas é possível gerar uma atividade econômica a partir deste produto? Os clientes pagariam por ele? O modelo de negócios é repetitível, ou seja, novos clientes se comportariam como os clientes dos nossos testes? É possível atrair novos clientes de forma escalável?
-
-Durante a fase de validação de clientes os fundadores devem realizar testes quantitativos para decidir se o produto está suficientemente pronto para o mercado, e se chegou a hora de ''pisar no acelerador" aumentando os gastos com marketing para atrair mais clientes e aumentar a quantidade de vendas. Os fundadores devem medir a quantidade de pedidos ou o número de usuários da aplicação ou serviço para determinar se o lucro obtido com um cliente supera o custo de obtê-lo.
-
-A EasyTaxi precisava validar seus clientes mas tinha um problema: como convencer os taxistas que eles receberiam chamadas pela aplicação móvel se o produto ainda não havia sido lançado e nenhum passageiro tinha acesso à aplicação? Como convencer os passageiros a utilizarem a aplicação se nenhum taxista estava cadastrado? A solução encontrada pela EasyTaxi foi a de distribuir 10 smartphones com a aplicação instalada a taxistas de uma determinada região da cidade para que eles pudessem receber as chamadas. Ao mesmo tempo, os fundadores da empresa passavam o dia na entrada de hotéis com alto número de turistas estrangeiros que teriam dificuldades em obter um táxi. Os fundadores propunham um táxi ao turista e utilizavam a aplicação para fazer o pedido. Através desta estratégia eles puderam realizar algumas corridas reais de táxi e verificaram que corridas de taxi iniciadas pela aplicação aconteciam na prática. Eles também verificaram que os motoristas de táxi que utilizaram a aplicação fizeram mais corridas/dia que os que não utilizaram. O modelo de negócios estava completamente validado e era hora de escalar a operação.
-
-Nesta fase ainda não é hora de criar uma equipe de vendas. A validação de clientes busca encontrar um processo de vendas que possa ser repetido facilmente. Apenas quando este processo é encontrado que os fundadores devem pensar em criar uma equipe de vendas.
-
-A fase de validação de clientes pode ser dividida em 4 etapas: (i) preparação para as vendas, (ii) venda seu produto para os \textit{earlyadopters}, (iii) ajuste o produto e as ferramentas de aquisição de clientes e (iv) analise o resultado das vendas e os retornos dos clientes e "pivote ou continue".
-
-\paragraph{Preparação para as vendas}
-
-Nesta fase os fundadores colocam em operação todas ferramentas e estrutura necessária para adquirir clientes e analisar os dados de uso do produto pelos clientes. Os fundadores devem, por exemplo, criar campanhas de marketing usando o Google AdWords e colocar em operação um painel de controle que mostre a evolução das métricas AARRR descritas em~\ref{aarrr}. 
-
-Lembre-se que este ainda não é o momento de executar o plano de marketing da startup. Por isso, não gaste mais de US\$2.000,00 com nenhum teste de validação de clientes. Se você tiver diversos planos de aquisição de clientes, não os ative todos ao mesmo tempo: isto geraria muita informação e muito caos e seria mais difícil se concentrar nas métricas e na avaliação do que funciona ou não.
-
-Também é importante que a startup contrate um Responsável por Análise de Dados para analisar os dados gerados pelos clientes e pela aplicação. Esta pessoa não será importante apenas durante o processo de validação de clientes, mas vai também guiar o desenvolvimento das estratégias comerciais, de pesquisa e de melhoria do produto.
-
-\paragraph{Saia do escritório e venda}
-
-Depois que a estrutura de coleta e análise de dados está montada, é hora de sair do escritório e conseguir os primeiros usuários do produto. Nesta fase os fundadores devem validar hipóteses do modelo de negócios tais como "se eu investir US\$100,00 em AdWords eu vou obter 30 acessos ao meu site", ou "para cada US\$150,00 gastos em Facebook Ads eu terei 10 novas vendas da minha aplicação".
-
-Frequentemente o retorno obtido por cada canal pode ser otimizado. Por exemplo, aumentar a velocidade de acesso e diminuir o tempo que um site leva para carregar tem efeitos diretos sobre o número de acessos. Um artigo em um site ou blog de alta frequentação pode aumentar o público de um produto e aumentar a quantidade de instalações de uma aplicação. Nesta fase os fundadores devem preparar planos de otimização para cada canal utilizado e implementá-los para melhorar os resultados. 
-
-Sites de e-commerce devem começar otimizando tráfego e quantidade inicial de pedidos, e em seguida aumentar o tamanho médio de um pedido, aumentar a quantidade de usuários que fazem pedidos recorrentes e aumentar o número de indicações de seus clientes. Mercados multi-laterais, como aplicações suportadas por anúncios, devem se concentrar inicialmente em aumentar o tráfego total, em seguida na quantidade de membros ou assinantes, no número de usuários ativos por dia, minutos de engajamento, visitas repetidas e recomendações. Só depois que os fundadores devem otimizar o outro lado do mercado, maximizando o faturamento por anúncios ou o custo por mil exibições (CPM). \textit{Marketplaces} devem se concentrar nos mesmos itens que os sites de e-commerce para atrair compradores, mas também aumentar o número de vendedores, a aquisição de vendedores e a quantidade de itens que são realmente vendidos.
-
-Também é importante  otimizar os esforços de obtenção de usuários. Cada modelo de negócios tem uma estratégia de otimização apropriada. Produtos que são vendidos por assinatura, como \textit{Software As a Service} devem tentar obter clientes que explorem as possibilidades do serviço através de uma de testes de baixo custo ou gratuita. Produtos caros devem se certificar que os clientes são direcionados ao canal de vendas apropriado e que desenvolvam uma relação com o canal. Aplicações baratas e jogos devem tentar realizar vendas tão logo os clientes comecem a utilizar a aplicação. Redes sociais devem encorajar os usuários recém-chegados a participar de algumas interações sociais com o restante da rede para "viciar" o usuário e fazer com que ele convide amigos. Mercados multi-laterais devem atrair usuários que vão acessar o serviço frequentemente, ficar por bastante tempo e trarão seus amigos. Marketplaces, finalmente, devem encorajar a participação dos vendedores, que eles vendam múltiplos itens, e que eles rapidamente realizem vendas através do serviço.
-
-A cada mudança na sua estratégia de obtenção de clientes, realize testes controlados para identificar se a mudança no comportamento dos clientes é conseqüência da sua mudança de estratégia ou de outros fatores aleatórios que coincidiram com a sua mudança. Uma forma de avaliar com segurança os efeitos de uma mudança é realizar testes A/B: apresente para um grupo de usuários a versão A do seu produto, para outro grupo a versão B, e compare as métricas que você procurou otimizar da versão A para a versão B. O novo site gera mais inscrições? O novo fluxo de pagamento gera mais pedidos?
-
-\paragraph{Ajuste seu produto}
-
-Depois de executadas as duas fases anteriores, você deve saber exatamente porque os clientes compram o seu produto e qual a reação dos clientes à sua proposição de valor. Nesta fase os fundadores devem desenvolver um posicionamento do produto, ajustar o posicionamento do produto ao tipo de mercado, definir o posicionamento da empresa, e realizar apresentações para pessoas influentes da indústria para validar os posicionamentos.
-
-Até este momento a startup investiu pouco em marketing e o produto é conhecido apenas de um pequeno grupo de \textit{early adopters}. Mas agora a startup precisa se preparar para pisar no acelerador, e para isso ela deve ser capaz de comunicar ao seu público quem ela é e o que ela faz. Resista à tentação de contratar uma agência de comunicação (em geral bem cara) para definir este posicionamento. O posicionamento inicial pode ser feito pela equipe responsável pelo desenvolvimento do cliente, que é quem melhor conhece os clientes da empresa e as razões que levaram eles a utilizarem os produtos da empresa.
-
-Para saber como posicionar a empresa também é interessante saber a visão que seus clientes tem da sua empresa e de seus concorrentes. Isto geralmente é feito através de entrevistas com os clientes, e apesar de que grande parte deste processo possa ser realizado por uma agência de relações públicas, é importante que os fundadores participem das primeiras entrevistas ou até mesmo façam as primeiras entrevistas.
-
-O posicionamento do produto deve ser um sumário de uma página explicando o objetivo do produto. Adapte este posicionamento ao tipo de mercado do seu produto: compare seu produto com os concorrentes se eles existirem, ou detalhe o problema a ser resolvido e as vantagens da sua solução caso eles não existam. Este sumário será posteriormente utilizado para garantir que todo material de marketing que será desenvolvido a seguir (panfletos, \textit{white papers}, apresentações, etc.) passe a mensagem correta.
-
-O posicionamento da empresa deve responder à perguntas do tipo "O que esta empresa pode fazer por mim?", "Por que eu faria negócios com eles?" ou "Por que esta empresa existe e por que eles são diferentes?". Escreva a primeira versão da forma mais simples possível, sempre colocando os clientes em primeiro lugar. Assim como o posicionamento do produto, o posicionamento da empresa deve ser um sumário que irá guiar a elaboração de outros documentos de marketing (\textit{press releases}, apresentações de venda, websites) e garantir que a mensagem é consistente em todo material de marketing.
-
-\paragraph{Pivote ou continue}
-
-Finalmente, esta é a fase mais crítica do processo de validação de clientes. Os fundadores devem determinar honestamente se eles estão diante de um modelo de negócios escalável, repetitível e rentável. Este é o momento que vai decidir o futuro da empresa, e é a hora de revisar todos os resultados dos testes, todos os retornos dos clientes e todos os \textit{insights} que os fundadores tiveram ao longo do processo. Os fundadores devem determinar se a startup está pronta a gastar dinheiro para escalar, e se isso vai resultar em uma grande empresa rentável.
-
-Pode ser que neste momento a startup conclua que necessita de 300.000 usuários para ser rentável, mas que o mercado não é suficientemente grande para que a startup consiga este número de usuários. Ou que os custos de obtenção de clientes são muito altos tornando impossível que a startup seja rentável. Em alguns casos, mais testes são necessários para otimizar as formas de aquisição de clientes ou o desenvolvimento de novos canais. Em outros casos, a única forma de corrigir estas anomalias é pivotando o modelo de negócios.
-
-Para que esta decisão seja fundamentada em dados obtidos pela startup durante o processo de desenvolvimento de clientes é importante que todos os fundadores estejam reunidos em uma sala durante um ou dois dias, e que tenham acesso a todas informações obtidas durante o processo: a versão mais recente do painel de modelo de negócios e uma ou duas versões mais antigas, todas hipóteses e os resultados dos testes de validação, os valores das métricas de progresso mais importantes e o plano de execução de vendas. Revise os retornos dos clientes, os tamanhos de mercado estimados, os preços, custos de aquisição de usuários, e todas outras informações que possam influenciar sua tomada de decisão.
-
-\subsubsection{Criação de Clientes}
-\label{criacao}
-responsável:Roberto revisor: Fabio\\
-
-(o livro do Steve Blank não tem muita coisa sobre esta fase não. Na minha opinião ele juntou tudo na fase anterior de validação de clientes -- as estratégias de otimização de obtenção de clientes são exatamente isso. De qualquer forma, mesmo se o processo de customer development tem 4 caixinhas, o livro dele só tem dois capítulos: step one, customer discovery, step two customer validation. Acho que customer creation já é a execução do business plan e acontece quando a empresa deixa de ser startup, e portanto fora do escopo do livro)
-
-\subsubsection{Construção da Empresa}
-\label{construcao}
-responsável:Roberto revisor: Fabio \\
-
-(Eu sinceramente acho que esta seção não deveria existir. No livro do Steve Blank são umas 10 páginas catadas de qualquer jeito apresentando uma estratégia meia boca para criar um serviço web ou uma aplicação que ele utilizou no curso dele com estudantes de administração. Pra piorar, a estratégia muitas vezes é conflitante com o processo que ele apresentou anteriormente. O Running Lean faz um trabalho muito melhor nesse sentido)
-
-\subsection{Métricas de uso e o funil de conversão AARRR}
-\label{aarrr}
-responsável:Roberto revisor: Fabio\\
-
-As métricas AARRR são um conjunto de métricas inicialmente proposto por DaveMcClure que auxiliam os fundadores de uma startup a monitorar o progresso de sua empresa. O objetivo principal de utilizar este conjunto de métricas é o de se concentrar nos números que realmente indicam que a empresa está progredindo no seu modelo de negócios e não deixar que o fundador se iluda com métricas de vaidade: números que enchem o ego dos fundadores (como por exemplo o número de downloads de uma aplicação móvel) mas que não se convertem necessariamente em resultado financeiro para a empresa.
-
-O nome AARRR é na verdade um acrônimo para as métricas de Aquisição de usuários, Ativação de usuários, Retenção de usuários, Recomendação de usuários e o Resultado gerado por cada usuário. Aquisição representa o número de usuários que chegam ao seu site ou aplicação. Ativação é o número de usuários que realmente utiliza o serviço ou aplicação depois de tê-lo acessado ou instalado. Retenção é a quantidade de usuários que volta a utilizar o serviço ou aplicação após a primeira experiência. Recomendação é o número de usuários que gostam suficientemente do produto a ponto de recomendá-lo a outros usuários. Renda, finalmente, é o número de usuários que realizam alguma transação financeira através do seu serviço ou aplicação.
-
-\begin{figure}
-\centerline{\includegraphics*[width=09cm]{figuras/aarrr}}
-\caption{Exemplo de métricas de conversão (por Dave McClure)}
-\end{figure}
-
-Intuitivamente, a cada uma das métricas AARRR consideradas o número de usuários diminui. Este é o chamado "funil de conversão": o objetivo dos fundadores é que a maior parte dos usuários adquiridos se torne um usuário gerador de renda. Monitorando as taxas de conversão a cada etapa do funil os fundadores podem identificar gargalos de conversão e priorizar ações de otimização que melhorem a rentabilidade da startup.  
-
-Para melhorar seus números de ativação, utilize diversos canais de marketing e se concentre naqueles que fornecem o maior volume, que tenham o menor custo ou que ofereçam a melhor performance de conversão. Para melhorar a taxa de conversão entre aquisição e ativação, faça testes com diversas landins pages ou interfaces da aplicação utilizando testes A/B para determinar o vencedor a cada mudança. Para melhorar a taxa de conversão entre ativação e retenção utilize alertas ou emails automáticos para lembrar o usuário de utilizar o seu produto. Para melhorar as taxas de conversão entre retenção e recomendação, faça campanhas e concursos e permita que o usuário compartilhe um link para o seu produto por email ou redes sociais. Finalmente, para melhorar a conversão entre recomendação e renda cada empreendedor deve usar a melhor estratégia de acordo com seu negócio. Não existe uma regra geral neste caso.
-
-Fundadores devem utilizar as métricas AARRR para manter o foco em pontos importantes para a vida da empresa. Utilize as métricas AARRR para medir as taxas de conversão ao final do funil, e não apenas na sua \textit{landing page}. Concentre 80\% do seu esforço de desenvolvimento no aprimoramento das funcionalidades existentes e na melhoria das taxas de conversão e apenas 20\% na introdução de novas funcionalidades. Finalmente, determine que cada membro da equipe da startup seja responsável por monitorar e otimizar uma das métricas.
-
-\subsubsection{Análise de Coorte}
-
-Toda a dinâmica descrita neste capítulo envolve experimentações, modificações e mudanças de rumo da startup com o objetivo de encontrar um consumidor pagante.
-As métricas AARRR apresentadas  conseguem nos trazer dados consolidados, em grandes números, e nos dão uma visão geral do desempenho da startup.
-No entanto, essas métricas sozinhas não facilitam a visualização no tempo, tampouco dão suporte à analise segmentada dos clientes. É exatamente nesse ponto que entra a Análise de Coorte.
-
-\textbf{Coorte} é um grupo de usuários que compartilham determinada característica dentro de um período específico.
-A análise de Coorte (\emph{Cohort analysis}) permite  entender o comportamento dos clientes através da segmentação no tempo. Seu uso é muito popular em estudos de medicina, para verificar o efeito de medicamentos a longo prazo~\cite{MAURYA}.
-
-Em startups de tecnologia esta análise permite observar como cada grupo de usuários estão respondendo às evoluções do produto. Segundo Ries\cite{RIES}, esta métrica é uma das mais importantes na análise de desempenho das startups modernas. 
-Quando utilizadas em conjunto com as métricas AARRR, a análise de Coorte permite rastrear se as modificações introduzidas em uma certa data estão impactando os usuários como esperado.
-Por exemplo, os usuários que se registraram no sistema no mesmo dia fazem parte de um mesmo Coorte. Sendo assim, é interessante analisar o comportamento desses Coortes no tempo para verificar de que maneira as evoluções do produto estão sendo recebidas pelos usuários mais antigos e pelos usuários recém chegados.
-Pode-se chegar à conclusão de que os usuários mais antigos usam o sistema com frequência, mas nunca efetuam pagamentos, i.e., não são lucrativos, ou vice-versa.
- 
-Esta análise também pode ser utilizada para verificar se usuários provenientes de uma determinada campanha de marketing é mais lucrativo do que os usuários em geral. Neste caso cada Coorte representa o grupo de usuários que se registraram no período da campanha, ou melhor ainda, nos casos de campanhas digitais, é possível rastrear a origem do usuário como sendo da campanha para segmenta-lo corretamente.
-
-Se olharmos as métricas consolidadas utilizando a totalidade da base de usuários, os fundadores podem estar se enganando, é possível que essas métricas globais não representem a realidade atual da startup. 
-
-
-\begin{figure}
-\caption{TODO: Exemplo de análise de coorte}
-\end{figure}
-
-
-\subsubsection{Encaixe Problema/Soluçãoo (Problem/Solution FIT) [Running Lean]}
-
-%//#Key Question: Do I have a problem worth solving?
-
-O primeiro passo de uma startup enxuta é propor uma solução para um problema identificado, isto é, saber responder à pergunta: 
-\emph{tenho um problema que vale a pena ser solucionado?}
-No livro Running Lean\cite{???}, Ash Maurya aborda o encaixe Problema/Solução com três questões chave:
-\begin{enumerate}
-\item O produto/serviço é algo que os clientes querem? (necessário)
-\item É um produto viável - pode ser resolvido? (exequível)
-\item O cliente irá pagar pelo produto? se não, quem irá? (viable)
-\end{enumerate}
-
-Durante o processo de validação do cliente é necessário coletar informação suficiente para responder as questões acima.
-
-
-TODO: AINDA EM ESCRITA....
-
-TODO
-
-TODO
-
-
-
-\subsection{Produto}
-
-Na seção anterior foi abordada a importância de se entender o cliente até atingir o encaixe Problema/Solução. 
-Nesta sessão discutiremos como uma startup deve desenvolver seu produto de
-forma a que ele resolva um problema importante do cliente de forma eficiente.
-Como toda startup no momento de sua criação se baseia em hipóteses não
-verificadas propostas pelos seus fundadores, o desenvolvimento do produto deve
-ser um processo interativo de aprendizado e verificação destas hipóteses que
-orientarão o desenvolvimento do produto. Estas circuntâncias são específicas das
-startups em geral, e diferem do desenvolvimento de produto em outras áreas ou
-em empresas já consolidadas no mercado onde a quantidade de informações
-desconhecidas é muito menor.
-
-\subsubsection{MVP}
-
-
-%//TODO - add quote: Business plan não sobrevive frente aos primeiros clientes (Steve Blank)
-
-Ao chegar fase de elaboração do produto supõe-se que a startup já encontrou um encaixe problema/solução. O objetivo agora é colocar em prática o aprendizado com o cliente para se criar uma versão do produto que consiga resolver o problema encontrado. 
-Apresentaremos nestá seção o conceito de Menor Produto Viável (Minimum Viable Product), que é definido por Ries\cite{RIES} como sendo o produto mais simples que pode ser desenvolvido para iniciar o processo de aprendizado da empresa gastando o mínimo de esforço.
-Por exemplo, se o produto criado pela startup prevê um modelo de pagamento mensal, nesta fase será validado se o cliente está disposto a pagar pelo preço estipulado. Pretende-se descobrir se a demanda encontrada realmente existe e se é possível encontrar consumidores dispostos a pagar por isso.
-
-Essa abordagem contrapõe técnicas convencionais, que neste estágio estariam investindo um longo tempo de desenvolvimento para a criação de produtos ricos em funcionalidades, mas que demoram muito para chegar ao mercado e ao chegar não atendem às reais necessidades dos consumidores.
-
-No ciclo de validação do MVP, o produto ou serviço é oferecido para os \emph{early adopters}, que são potencialmente os clientes que participaram da fase de exploração do encaixe Problema/Solução (seção \ref{}).
-O máximo de \emph{feedback} deve ser coletado desses primeiros usuários, com o intuito de validar as hipóteses do modelo de negócios e priorizar o desenvolvimento de novas funcionalidades.  A?os um ciclo de teste, os resultados obtidos com o MVP podem inclusive revelar uma deficiência no modelo de negócios, ou iniciar um processo de alteração de rumos (pivotar).
- 
-
-São enormes as discussões em torno do conjunto de funcionalidades que devem compor o menor produto viável. 
-A complexidade pode variar de uma simples página web contendo um anúncio até grandes protótipos, mas com algumas deficiências e faltando algumas funcionalidades. Não existe formula mágica para decidir quão detalhado deve ser um MVP, mas é sabido que empreendedores e desenvolvedores de produto tendem a super-estimar a quantidade de funcionalidades\cite{RIES}. 
-
-Existem diversas técnicas para se criar um MPV\cite{???}, a seguir enumeramos algumas descritas por Ries\cite{RIES}.
-
-{\bf Teste de Fumaça} (\emph{Smoke Tests}) - No início da idealização do produto há casos em que a dúvida em relação à existência de consumidores para o novo produto é muito alta. Pode-se então criar uma simples página web e realizar alguns testes com campanhas de marketing online (Ex., Google AdWords e Facebook) para medir quantas pessoas estão interessadas em testar o novo produto. Esta técnica foi utilizada, por exemplo, pelo site www.buffer.com\cite{http://blog.bufferapp.com/idea-to-paying-customers-in-7-weeks-how-we-did-it}. O objetivo era medir se usuários estavam dispostos a pagar pelo serviço de agendamento de posts em redes sociais.
-
-
-{\bf Video MVP} - O MVP em vídeo é uma evolução do Smoke Test, pois já entra em detalhes na maneira como o produto/serviço irá funcionar. Um exemplo conhecido dessa abordagem é o Dropbox.com\cite{DROPBOX}. Os fundadores da Startup criaram um vídeo sobre o funcionamento do produto - compartilhamento de arquivos entre dispositivos de forma fácil e inovadora.  A aceitação foi enorme, em poucos dias tinham 75000 usuários registrados no site do produto. 
-
-%%Sites como kickstarter.com disponibilizam uma estrutura apropriada para essa divulgação e incluem a captação de investidores pessoais...
-
-{\bf MVP Recepcionista} (\emph{Concierge}) e MVP Mágico de Oz - Há casos em que é preciso acompanhar de perto a necessidade do cliente para tentar evoluir o produto que está sendo criado. O MVP Recepcionista assume que no início dos trabalhos o primeiro produto pode ser feito manualmento pela equipe da startup. Esse método, que deve ser comparado a fase de experimentação, pois consiste em realizar manualmente algumas das etapas mais custosas do processo, claramente essa abordagem não é eficiente e tampouco é escalável, mas é uma maneira rápida de experimentar. 
-Um exemplo na elaboração de MVP Mágico de Oz é o e-commerce americano Zappos. Os idealizadores pretendiam testar o mercado de vendas de sapatos on-line, mas sem investir em processos custosos de automação e sem manter um grande estoque. Nessa fase, foi feita um parceria com um comerciante local para prover o inventário de sapatos e a cada compra online era necessário ir a até loja, comprar o sapato e entregar.
-
-{\bf MVP Prototipagem em Papel} -  TODO TODO TODO
-
-%Em todos esses cenários é imprescindível coletar informações de acordo com as métricas descritas no capítulo\ref{METRICAS}.
-
-%O termo menor produto viável não deve ser entendido como o produto com a menor quantidade de funcionalidades, ou produto simples.
-
-
-
-
-\subsubsection{Métodos Ágeis}
-
-
-Nesta seção abordaremos os conceitos e a literatura sobre métodos ágeis de desenvolvimento de software, um movimento que preconiza metodologias que se adaptam mais facilmente às mudanças e produzem software de melhor qualidade, e que são especialmente adaptados às startups.
-
-O conjunto de práticas que apresentamos são muito dinâmicas, em diversas ocasiões são necessárias modificações no plano inicial de trabalho para se adequar ào plano de negócios em constante evolução. No contexto de desenvolvimento de software é importante adotar um processo que seja flexível o suficiente para se adequar à mudanças e à velocidade de evolução do produto.
+Nesta seção abordaremos os conceitos e a literatura sobre métodos ágeis de desenvolvimento de software, um movimento que preconiza metodologias que se adaptam mais facilmente às mudanças e produzem software de melhor qualidade, e que são especialmente adaptados à metodologia da startup enxuta.
 
 As características chave da metodologia de desenvolvimento adotata deve favorecer a criação de protótipos, à realização de testes e experimentos com os clientes,  prover entregas frequentes e incrementais, além de manter uma comunicação eficiente entre os entes do projeto.
-Essas características estão de acordo com as valores propostos pelo Manifesto ágil \cite{}:
+Essas características estão de acordo com as valores propostos pelo Manifesto ágil \cite{MANIFESTO_AGIL}:
 
 - Indivíduos e interação entre eles mais que processos e ferramentas
 
@@ -316,18 +75,18 @@ Existem três papeis principais no Scrum: o  Dono do Produto (\emph{Product Owner
 \item[ \textbf{Equipe de Desenvolvimento}] -  responsável pelas entregas, a equipe deve ser multi-funcional, auto-organizada e comprometida com o objetivo comum. Geralmente são pequenas (até 10 integrantes).
 \end{itemize}
 
-O principal artefato utilizado é o \emph{Backlog do Produto}, que é uma lista geral de funcionalidades (tarefas, histórias, casos de uso, etc.) mantida e priorizada pelo Dono do Produto. O Backlog do Produto também é gerado de incrementalmente.
+O principal artefato utilizado é o \emph{Backlog do Produto}, que é uma lista geral de funcionalidades (tarefas, histórias, casos de uso, etc.) mantida e priorizada pelo Dono do Produto. O Backlog do Produto também é gerado incrementalmente.
 
 O andamento do processo consiste numa sequência de ciclos de trabalho com duração pré-determinada (usualmente de 2 ou 3 semanas). Ao início de cada ciclo é feita uma reunião de estimativa para priorizar e rever as estimativas dos itens mais importantos do Backlog do produto. Participam desta reunião o Mestre de Scrum e a equipe.
 
 Com os itens estimados, é feita a Reunião de Planejamento para escolher os itens que irão fazer parte do \emph{Backlog da Iteração}, de tal forma que os itens se encaixem na duração prevista da iteração. Todos participam desta reunião. Os itens escolhidos são particionados em tarefas e o desenvolvimento é iniciado. Recomenda-se não alterar os itens escolhidos durante a iteração.
 
 
-Ao final da iteração a equipe deve gerar um produto funcional e entregável superior ao início da iteração. É previsto um reunião de entrega para que avaliar a situação atual do produto, seguida de um reunião de Retrospectiva para avaliar o processo de desenvolvimento como um topo e propor melhorias. A partir deste ponto o ciclo se reinicia.
+Ao final da iteração a equipe deve gerar um produto funcional e entregável superior ao início da iteração. É previsto uma Reunião de Entrega para que avaliar a situação atual do produto, seguida de um Reunião de Retrospectiva para avaliar o processo de desenvolvimento como um topo e propor melhorias. A partir deste ponto o ciclo se reinicia.
 
 
 
-\textbf{eXtreme Programming}\cite{???} (XP) --- é um processo ágil de desenvolvimento de software baseado em iterações rápidas com pouco planejamento formal. A lista de itens a serem desenvolvidos é particionada em pequenas Histórias de Usuário (\emph{User Stories}) - uma frase descrevendo uma necessidade.  A partir destas histórias estimadas pela equipe o cliente decide quais irão fazer parte da próxima iteração.
+\textbf{EXtreme Programming}\cite{???} (XP) --- é um processo ágil de desenvolvimento de software baseado em iterações rápidas com pouco planejamento formal. A lista de itens a serem desenvolvidos é particionada em pequenas Histórias de Usuário (\emph{User Stories}) - uma frase descrevendo uma necessidade.  A partir destas histórias estimadas pela equipe o cliente decide quais irão fazer parte da próxima iteração.
 
 Os príncipios fundamentais de XP são o código simples e de qualidade, comunicação eficiente e trabalho em equipe. Em comparação com Scrum, as práticas de XP estão mais voltadas para técnicas de implementação de software em sí,  enquanto Scrum é o ferramental para o gerenciamento do produto como um todo.
 Dentre as boas práticas recomendadas pelo XP estão o desenvolvimento orientado a testes, programação em pares, propriedade coletiva do código, integração contínua, simplicidade do código, refatoração, padrões de código, etc.
@@ -344,17 +103,129 @@ Apesar de nao prescrever reuniões ou cerimônias, mesclar com algumas práticas de
 
 
 
-\subsubsection{Encaixe Produto/Lançamento (Product/Launch)}
-
-%Key Question: Have I built something people want?
-
-Finalmente mostramos como identificar se o produto está pronto para o Lançamento. É muito comum em uma startup, a fase de desenvolvimento do produto perder o foco no aprendizado. Explicaremos como garantir que o produto desenvolvido está pronto para promover o aprendizado, usando as
 
 
-Enquanto estiver nesta fase, dizemos que o produto ainda pode ser "pivotado" (termo utilizado por Eric Ries no livro Startup Enxuta).
+\subsection{Descoberta de Clientes}
+\label{descoberta}
+responsável:Roberto revisor: Fabs\\
+O objetivo da descoberta de clientes é o de identificar se existe um problema a ser resolvido, se este problema pode ser resolvido, e se existe um número suficiente de pessoas que utilizariam um produto que resolva o problema. A descoberta de clientes obtém respostas a estas questões sistematicamente através de um processo contínuo de teste e validação com potenciais clientes.
 
-Em caso de sucesso, ao final desta fase que a startup chega no ponto de buscar investimento. Este ponto será abordado na seção\ref{REF_SECAO_PRODUCT/MARKET_FIT}
+O processo de descoberta de clientes é formado por 3 fases que descreveremos a seguir: (i) criação de um painel de modelo de negócios detalhando a visão dos fundadores e suas hipóteses, (ii) teste do seu problema e sua solução, validando as hipóteses do modelo de negócios, (iii) avaliação dos resultados e decisão de obter mais informações ou seguir para o passo seguinte, a validação de clientes (descrita na seção~\ref{validacao}).
 
+
+%antigo \subsection{Produto}
+
+%Na seção anterior foi abordada a importância de se entender o cliente até atingir o encaixe Problema/Solução.   Nesta sessão discutiremos como uma startup deve desenvolver seu produto de forma a que ele resolva um problema importante do cliente de forma eficiente. Como toda startup no momento de sua criação se baseia em hipóteses não verificadas propostas pelos seus fundadores, o desenvolvimento do produto deve ser um processo interativo de aprendizado e verificação destas hipóteses que orientarão o desenvolvimento do produto. Estas circuntâncias são específicas das startups em geral, e diferem do desenvolvimento de produto em outras áreas ou em empresas já consolidadas no mercado onde a quantidade de informações desconhecidas é muito menor.
+
+\paragraph{Encaixe Problema/Solução}
+
+Na visão de Ash Maurya no livro Running Lean~\cite{MAURYA}, o primeiro passo de uma startup enxuta é propor uma solução para um problema identificado, isto é, saber responder à pergunta:  \emph{tenho um problema que vale a pena ser solucionado?}.  Durante o processo de descoberta do cliente é necessário percorrer um caminho que aborde questões chave:
+\begin{enumerate}
+\item O produto/serviço é algo que os clientes querem? (necessário)
+\item É um produto viável - pode ser resolvido? (exequível)
+\item O cliente irá pagar pelo produto? se não, quem irá? (viável)
+\end{enumerate}
+
+Quando as respostas para essas perguntas forem positivas e satisfatórias dizemos que o encaixe Problema/Solução foi encontrado.
+
+
+\subsubsection{Detalhando a visão dos fundadores}
+
+Inicialmente, os fundadores devem fazer uma estimativa aproximada do tamanho do mercado para identificar se a oportunidade é grande o suficiente para a criação de uma startup. Para isso é importante que os fundadores conheçam os termos \textit{TAM}, \textit{SAM} e \textit{Target Market}. O \textit{TAM} é o \textit{Total Addressable Market} ou o tamanho total do mercado. O \textit{SAM} é o \textit{Served Available Market} ou a fatia do mercado que eu posso alcançar através do meu canal de vendas. Finalmente, o \textit{Target Market} é o mercado alvo, ou a fatia do mercado que provavelmente utilizará o produto. Suponha que a startup queira criar um serviço de compartilhamento de fotos de pesca através de uma aplicação para smartphones android. O \textit{TAM} seria o total de pessoas que pescam por hobby e possuem um smartphone. O \textit{SAM} seria a porcentagem destes usuários que possuem um smartphone android. O \textit{Target Market} seria a porcentagem destas pessoas que participam de outras redes sociais e teriam interesse em participar de uma rede social específica para a pesca.
+
+Para estimar o tamanho do mercado, você pode usar pesquisas de mercado já existentes (mas não as previsões de evolução do mercado pois elas frequentemente estão erradas) ou ferramentas como o Google Trends~\footnote{\url{www.google.com/trends}} ou o Google AdWords Keyword Planner~\footnote{\url{adwords.google.com/KeywordPlanner}}.
+
+Se a oportunidade for suficientemente grande, formule as demais hipóteses do negócio utilizando um painel. Nós utilizamos o painel Lean, ou \textit{Lean Canvas}~\ref{canvas}, criado por Ash Maurya, que é um aperfeiçoamento do painel de modelo de negócios proposto por Alex Osterwalder e adotado por Steve Blank em~\cite{Blank2012} com maior foco nos temas de maior risco para startups.
+
+\begin{figure}
+\caption{Painel de modelo de negócios (vale à pena?)}
+\label{canvas}
+\end{figure}
+
+Durante o preenchimento deste painel os fundadores devem tomar algumas decisões importantes para o sucesso do processo de desenvolvimento de cliente. Ao definir a proposta de valor do produto, os fundadores devem também definir um produto minimamente viável, ou \textit{MVP}. O \textit{MVP} é o menor grupo de funcionalidades que podem funcionar como um produto e resolverem uma parte importante do problema.
+
+A ProductHunt~\footnote{\url{www.producthunt.co}} é uma startup que organiza um diretório colaborativo de novidades em produtos de tecnologia de diferentes áreas, curados por especialistas de cada área. Para testar a viabilidade da ideia, a ProductHunt construiu um MVP: uma lista de difusão por emails organizada por um dos fundadores da empresa. Contribuidores enviavam emails com links de produtos interessantes, e no final do dia um sumário era enviado por email para cada membro da lista. Apenas quando os participantes desta lista de emails se entusiasmaram com a ideia de receber novas informações sobre produtos inovadores todos os dias é que os fundadores decidiram começar a desenvolver o site para automatizar o processo.
+
+Quando for definir seu \textit{MVP}, comece por definir as hipóteses que você quer testar. No caso da ProductHunt, as hipóteses eram que especialistas em tecnologia gostariam de compartilhar seus achados com outras pessoas, e que amantes de tecnologia gostariam de saber das novidades. É importante também especificar a métrica que será utilizada para definir se o teste será positivo ou negativo. A ProductHunt, por exemplo, pode ter definido que se 20\% dos especialistas convidados fornecessem ao menos 3 recomendações de produto durante o período de testes a primeira hipótese seria validada, e que se ao menos 50\% das pessoas demonstrassem interesse em receber a lista de recomendações, a segunda hipótese seria validada.
+
+Quando for definir seus segmentos de clientes (\textit{Customer Segments}) descreva o perfil de seus potenciais consumidores (por exemplo donas de casa de mais de 30 anos com um ou mais filhos) e imagine um dia típico na vida deste tipo de consumidor. Isto ajuda o fundador a descobrir como e quando o produto será usado, e quais estratégias podem ser usadas para obter novos clientes.
+
+Ao definir os canais de venda do seu produto (\textit{Channels}) não defina apenas como o produto chegará ao consumidor, mas também estratégias para aquisição, ativação e retenção de usuários, além de estratégias para a recomendação do seu produto. Mais detalhes sobre estas categorias de obtenção de usuários e como medir o seu funcionamento na Seção~\ref{aarrr}.
+
+Finalmente, este painel de modelo de negócios será atualizado à medida que os fundadores realizarem experimentos e obtiverem retornos dos potenciais clientes. É importante documentar as diversas versões de painéis de modelo de negócios geradas durante o processo de desenvolvimento de clientes para que os fundadores possam ter uma visão completa da evolução da empresa durante o processo.
+
+
+\subsubsection{Menor Produto Viável (MPV)}
+
+%Ao chegar fase de elaboração do produto supõe-se que a startup já encontrou um encaixe problema/solução.
+
+Apresentaremos nesta seção uma categorizarão dos  MVPs que são utilizados por startups de tecnologia.
+O objetivo na construção de um MVP é criar um mecanismo de aprendizado para validar a etapa de descoberta do cliente (i.e., obter um encaixe Problema/Solução).
+Por exemplo, se o produto criado pela startup prevê um modelo de pagamento mensal, nesta fase será validado se existe um mercado para o produto e se o consumidor está disposto a pagar pelo preço estipulado. Pretende-se descobrir se a demanda encontrada realmente existe e se é possível encontrar consumidores dispostos a pagar por isso.
+Essa abordagem contrapõe técnicas convencionais, que neste estágio estariam investindo um longo tempo de desenvolvimento para a criação de produtos ricos em funcionalidades, mas que demoram muito para chegar ao mercado e ao chegar não atendem às reais necessidades dos consumidores.
+
+%No ciclo de validação do MVP, o produto ou serviço é oferecido para os \emph{early adopters}, que são potencialmente os clientes que participaram da fase de exploração do encaixe Problema/Solução (seção \ref{}).
+%O máximo de \emph{feedback} deve ser coletado desses primeiros usuários, com o intuito de validar as hipóteses do modelo de negócios e priorizar o desenvolvimento de novas funcionalidades.  A?os um ciclo de teste, os resultados obtidos com o MVP podem inclusive revelar uma deficiência no modelo de negócios, ou iniciar um processo de alteração de rumos (pivotar).
+ 
+
+São enormes as discussões em torno do conjunto de funcionalidades que devem compor o menor produto viável. 
+A complexidade pode variar de uma simples página web contendo um anúncio até grandes protótipos, mas com algumas deficiências e faltando algumas funcionalidades. Não existe formula mágica para decidir quão detalhado deve ser um MVP, mas é sabido que empreendedores e desenvolvedores de produto tendem a super-estimar a quantidade de funcionalidades\cite{RIES}. 
+
+Existem diversas técnicas para se criar um MPV\cite{???}, a seguir enumeramos algumas descritas por Ries\cite{RIES}.
+
+{\bf Teste de Fumaça} (\emph{Smoke Tests}) - No início da idealização do produto há casos em que a dúvida em relação à existência de consumidores para o novo produto é muito alta. Pode-se então criar uma simples página web e realizar alguns testes com campanhas de marketing online (Ex., Google AdWords e Facebook) para medir quantas pessoas estão interessadas em testar o novo produto. Esta técnica foi utilizada, por exemplo, pelo site www.buffer.com\cite{http://blog.bufferapp.com/idea-to-paying-customers-in-7-weeks-how-we-did-it}. O objetivo era medir se usuários estavam dispostos a pagar pelo serviço de agendamento de posts em redes sociais.
+
+
+{\bf Video MVP} - O MVP em vídeo é uma evolução do Smoke Test, pois já entra em detalhes na maneira como o produto/serviço irá funcionar. Um exemplo conhecido dessa abordagem é o Dropbox.com\cite{DROPBOX}. Os fundadores da Startup criaram um vídeo sobre o funcionamento do produto - compartilhamento de arquivos entre dispositivos de forma fácil e inovadora.  A aceitação foi enorme, em poucos dias tinham 75000 usuários registrados no site do produto. 
+
+%%Sites como kickstarter.com disponibilizam uma estrutura apropriada para essa divulgação e incluem a captação de investidores pessoais...
+
+{\bf MVP Recepcionista} (\emph{Concierge}) e MVP Mágico de Oz - Há casos em que é preciso acompanhar de perto a necessidade do cliente para tentar evoluir o produto que está sendo criado. O MVP Recepcionista assume que no início dos trabalhos o primeiro produto pode ser feito manualmento pela equipe da startup. Esse método, que deve ser comparado a fase de experimentação, pois consiste em realizar manualmente algumas das etapas mais custosas do processo, claramente essa abordagem não é eficiente e tampouco é escalável, mas é uma maneira rápida de experimentar. 
+Um exemplo na elaboração de MVP Mágico de Oz é o e-commerce americano Zappos. Os idealizadores pretendiam testar o mercado de vendas de sapatos on-line, mas sem investir em processos custosos de automação e sem manter um grande estoque. Nessa fase, foi feita um parceria com um comerciante local para prover o inventário de sapatos e a cada compra online era necessário ir a até loja, comprar o sapato e entregar.
+
+{\bf MVP Prototipagem em Papel} -  TODO TODO TODO
+
+%Em todos esses cenários é imprescindível coletar informações de acordo com as métricas descritas no capítulo\ref{METRICAS}.
+
+%O termo menor produto viável não deve ser entendido como o produto com a menor quantidade de funcionalidades, ou produto simples.
+
+\subsubsection{Saia do escritório e aprenda}
+
+Uma vez definidas suas hipóteses, é hora de validá-las com futuros clientes reais. Estes clientes não estão no seu escritório, então é importante que os fundadores saiam do escritório e tenham contato em primeira mão com os potenciais clientes.
+
+Defina experimentos para validar cada hipótese do plano de negócios. Não se esqueça que estes experimentos devem ser fáceis de realizar e devem dar um resultado rapidamente. Por exemplo, para validar sua hipótese de segmento de clientes você pode criar uma pequena campanha de marketing usando o Facebook Ads ou o Google AdWords direcionadas a grupos diferentes e medir qual o segmento de clientes que dá o maior retorno.
+
+Para validar sua proposta de valor, crie diferentes versões de uma página de apresentação do produto (\textit{landing pages}) e meça aquela que recebe o maior número de acessos. Para identificar se seus potenciais clientes estão em busca de um produto que resolva o problema, adicione um campo de inscrição para testes da versão beta do produto e verifique a porcentagem das pessoas que acessam a página que se inscrevem para a campanha de testes beta. Utilize o Google Analytics para medir estes valores.
+
+Não confie apenas em dados obtidos em campanhas de marketing ou números de acessos à sua \textit{landing page}. Faça entrevistas presenciais com seus potenciais clientes e analise as reações deles à apresentação do problema e ao seu \textit{MVP}. Abra canais de retorno dos clientes (como caixas de comentários dentro do \textit{MVP} ou contas de email) e leve em consideração todos retornos obtidos.
+
+\subsubsection{Pivote ou continue}
+
+Uma vez que os testes foram realizados, analise todos os resultados e defina as hipóteses que foram validadas ou refutadas. Questione tudo, fundadores de sucesso são brutalmente honestos consigo mesmos. Deixe o ego de lado e ouça o que os clientes estão dizendo. Eles realmente comprariam o seu produto? As funcionalidades do seu \textit{MVP} são realmente importantes para eles?
+
+A EasyTaxi~\footnote{\url{www.easytaxi.com}} é uma das maiores empresas de serviços móveis para conexão entre motoristas de táxi e passageiros no mundo. A EasyTaxi foi criada com um objetivo claro: fornecer soluções móveis para cooperativas de táxis, em substituição ao sistema de rádio que era utilizado até então. A EasyTaxi então saiu do prédio e foi validar suas hipóteses com as cooperativas de táxi e descobriu que este modelo de negócios nunca iria funcionar: as regras de alocação de uma viagem entre os taxistas cooperados eram muito complexas e tinham como objetivo repartir igualmente as viagens entre os membros da cooperativa e não minimizar o tempo de atendimento ao cliente. A EasyTaxi decidiu então pivotar: ao invés de fornecer aplicações móveis às cooperativas, eles decidiram mudar de mercado e fornecer aplicações diretamente aos motoristas de táxi. Criaram um novo MVP, saíram do prédio de novo e desta vez deu certo. Hoje a EasyTaxi está presente em 27 países, tem uma equipe de cerca de 300 pessoas e fornece um táxi ao cliente entre 5 a 10 minutos.
+
+Após cada período de validação de hipóteses reúna os fundadores para avaliar os resultados e tomar uma decisão: a startup deve prosseguir com o modelo de negócios atual ou deve atualizar o modelo de negócios para se adaptar ao resultado dos testes? Este ponto do processo de desenvolvimento do cliente também é chamado de ''pivotar ou continuar" e é essencial para o sucesso da startup. Se a startup decidir pivotar, é necessário definir novas hipóteses, novos testes e sair do escritório para validá-las novamente. Caso a startup decida continuar com seu modelo de negócios, podem ser necessários novos testes para validar hipóteses ainda não validadas ou para validar novas hipóteses criadas a partir da análise dos resultados dos testes.
+
+Se a startup está segura que todas hipóteses relacionadas ao problema e à solução do problema foram validadas ela deve seguir para a próxima fase do processo de desenvolvimento de clientes, chamada de validação de clientes.
+
+\subsection{Validação de Clientes}
+\label{validacao}
+responsável:Roberto revisor: Fabs\\
+
+O objetivo principal da fase de validação de clientes é o de testar a venda do seu produto. Na fase anterior os fundadores verificaram que existe um problema a ser resolvido, que a quantidade de pessoas interessadas na resolução deste problema é grande o suficiente, e que a solução proposta pela startup interessa estas pessoas. Mas é possível gerar uma atividade econômica a partir deste produto? Os clientes pagariam por ele? O modelo de negócios é repetitível, ou seja, novos clientes se comportariam como os clientes dos nossos testes? É possível atrair novos clientes de forma escalável?
+
+Durante a fase de validação de clientes os fundadores devem realizar testes quantitativos para decidir se o produto está suficientemente pronto para o mercado, e se chegou a hora de ''pisar no acelerador" aumentando os gastos com marketing para atrair mais clientes e aumentar a quantidade de vendas. Os fundadores devem medir a quantidade de pedidos ou o número de usuários da aplicação ou serviço para determinar se o lucro obtido com um cliente supera o custo de obtê-lo.
+
+A EasyTaxi precisava validar seus clientes mas tinha um problema: como convencer os taxistas que eles receberiam chamadas pela aplicação móvel se o produto ainda não havia sido lançado e nenhum passageiro tinha acesso à aplicação? Como convencer os passageiros a utilizarem a aplicação se nenhum taxista estava cadastrado? A solução encontrada pela EasyTaxi foi a de distribuir 10 smartphones com a aplicação instalada a taxistas de uma determinada região da cidade para que eles pudessem receber as chamadas. Ao mesmo tempo, os fundadores da empresa passavam o dia na entrada de hotéis com alto número de turistas estrangeiros que teriam dificuldades em obter um táxi. Os fundadores propunham um táxi ao turista e utilizavam a aplicação para fazer o pedido. Através desta estratégia eles puderam realizar algumas corridas reais de táxi e verificaram que corridas de taxi iniciadas pela aplicação aconteciam na prática. Eles também verificaram que os motoristas de táxi que utilizaram a aplicação fizeram mais corridas/dia que os que não utilizaram. O modelo de negócios estava completamente validado e era hora de escalar a operação.
+
+Nesta fase ainda não é hora de criar uma equipe de vendas. A validação de clientes busca encontrar um processo de vendas que possa ser repetido facilmente. Apenas quando este processo é encontrado que os fundadores devem pensar em criar uma equipe de vendas.
+
+A fase de validação de clientes pode ser dividida em 4 etapas: (i) preparação para as vendas, (ii) venda seu produto para os \textit{earlyadopters}, (iii) ajuste o produto e as ferramentas de aquisição de clientes e (iv) analise o resultado das vendas e os retornos dos clientes e "pivote ou continue".
+
+
+
+\paragraph{Encaixe Produto/Lançamento (Product/Launch)}
 
 TODO: AINDA EM ESCRITA....
 
@@ -362,21 +233,144 @@ TODO
 
 TODO
 
+Finalmente mostramos como identificar se o produto está pronto para o Lançamento. É muito comum em uma startup, a fase de desenvolvimento do produto perder o foco no aprendizado. Explicaremos como garantir que o produto desenvolvido está pronto para promover o aprendizado, usando as
+
+%Enquanto estiver nesta fase, dizemos que o produto ainda pode ser "pivotado" (termo utilizado por Eric Ries no livro Startup Enxuta).
+
+Em caso de sucesso, ao final desta fase que a startup chega no ponto de buscar investimento. 
+%Key Question: Have I built something people want?
+
+
+
+
+
+
+\subsubsection{Preparação para as vendas}
+
+Nesta fase os fundadores colocam em operação todas ferramentas e estrutura necessária para adquirir clientes e analisar os dados de uso do produto pelos clientes. Os fundadores devem, por exemplo, criar campanhas de marketing usando o Google AdWords e colocar em operação um painel de controle que mostre a evolução das métricas AARRR descritas em~\ref{aarrr}. 
+
+Lembre-se que este ainda não é o momento de executar o plano de marketing da startup. Por isso, não gaste mais de US\$2.000,00 com nenhum teste de validação de clientes. Se você tiver diversos planos de aquisição de clientes, não os ative todos ao mesmo tempo: isto geraria muita informação e muito caos e seria mais difícil se concentrar nas métricas e na avaliação do que funciona ou não.
+
+Também é importante que a startup contrate um Responsável por Análise de Dados para analisar os dados gerados pelos clientes e pela aplicação. Esta pessoa não será importante apenas durante o processo de validação de clientes, mas vai também guiar o desenvolvimento das estratégias comerciais, de pesquisa e de melhoria do produto.
+
+
+
+\paragraph{Métricas de uso e o funil de conversão AARRR}
+\label{aarrr}
+responsável:Roberto revisor: Fabio\\
+
+As métricas AARRR são um conjunto de métricas inicialmente proposto por DaveMcClure que auxiliam os fundadores de uma startup a monitorar o progresso de sua empresa. O objetivo principal de utilizar este conjunto de métricas é o de se concentrar nos números que realmente indicam que a empresa está progredindo no seu modelo de negócios e não deixar que o fundador se iluda com métricas de vaidade: números que enchem o ego dos fundadores (como por exemplo o número de downloads de uma aplicação móvel) mas que não se convertem necessariamente em resultado financeiro para a empresa.
+
+O nome AARRR é na verdade um acrônimo para as métricas de Aquisição de usuários, Ativação de usuários, Retenção de usuários, Recomendação de usuários e o Resultado gerado por cada usuário. Aquisição representa o número de usuários que chegam ao seu site ou aplicação. Ativação é o número de usuários que realmente utiliza o serviço ou aplicação depois de tê-lo acessado ou instalado. Retenção é a quantidade de usuários que volta a utilizar o serviço ou aplicação após a primeira experiência. Recomendação é o número de usuários que gostam suficientemente do produto a ponto de recomendá-lo a outros usuários. Renda, finalmente, é o número de usuários que realizam alguma transação financeira através do seu serviço ou aplicação.
+
+\begin{figure}
+\centerline{\includegraphics*[width=09cm]{figuras/aarrr}}
+\caption{Exemplo de métricas de conversão (por Dave McClure)}
+\end{figure}
+
+Intuitivamente, a cada uma das métricas AARRR consideradas o número de usuários diminui. Este é o chamado "funil de conversão": o objetivo dos fundadores é que a maior parte dos usuários adquiridos se torne um usuário gerador de renda. Monitorando as taxas de conversão a cada etapa do funil os fundadores podem identificar gargalos de conversão e priorizar ações de otimização que melhorem a rentabilidade da startup.  
+
+Para melhorar seus números de ativação, utilize diversos canais de marketing e se concentre naqueles que fornecem o maior volume, que tenham o menor custo ou que ofereçam a melhor performance de conversão. Para melhorar a taxa de conversão entre aquisição e ativação, faça testes com diversas landins pages ou interfaces da aplicação utilizando testes A/B para determinar o vencedor a cada mudança. Para melhorar a taxa de conversão entre ativação e retenção utilize alertas ou emails automáticos para lembrar o usuário de utilizar o seu produto. Para melhorar as taxas de conversão entre retenção e recomendação, faça campanhas e concursos e permita que o usuário compartilhe um link para o seu produto por email ou redes sociais. Finalmente, para melhorar a conversão entre recomendação e renda cada empreendedor deve usar a melhor estratégia de acordo com seu negócio. Não existe uma regra geral neste caso.
+
+Fundadores devem utilizar as métricas AARRR para manter o foco em pontos importantes para a vida da empresa. Utilize as métricas AARRR para medir as taxas de conversão ao final do funil, e não apenas na sua \textit{landing page}. Concentre 80\% do seu esforço de desenvolvimento no aprimoramento das funcionalidades existentes e na melhoria das taxas de conversão e apenas 20\% na introdução de novas funcionalidades. Finalmente, determine que cada membro da equipe da startup seja responsável por monitorar e otimizar uma das métricas.
+
+\paragraph{Análise de Coorte}
+\label{coorte}
+
+Toda a dinâmica descrita neste capítulo envolve experimentações, modificações e mudanças de rumo da startup com o objetivo de encontrar um consumidor pagante.
+As métricas AARRR apresentadas  conseguem nos trazer dados consolidados, em grandes números, e nos dão uma visão geral do desempenho da startup.
+No entanto, essas métricas sozinhas não facilitam a visualização no tempo, tampouco dão suporte à analise segmentada dos clientes. É exatamente nesse ponto que entra a Análise de Coorte.
+
+\textbf{Coorte} é um grupo de usuários que compartilham determinada característica dentro de um período específico.
+A análise de Coorte (\emph{Cohort analysis}) permite  entender o comportamento dos clientes através da segmentação no tempo. Seu uso é muito popular em estudos de medicina, para verificar o efeito de medicamentos a longo prazo~\cite{MAURYA}.
+
+Em startups de tecnologia esta análise permite observar como cada grupo de usuários está respondendo às evoluções do produto. Segundo Ries\cite{RIES}, esta métrica é uma das mais importantes na análise de desempenho das startups modernas. 
+Quando utilizadas em conjunto com as métricas AARRR, a análise de Coorte permite rastrear se as modificações introduzidas em uma certa data estão impactando os usuários como esperado.
+Por exemplo, os usuários que se registraram no sistema no mesmo dia fazem parte de um mesmo Coorte. Sendo assim, é interessante analisar o comportamento desses Coortes no tempo para verificar de que maneira as evoluções do produto estão sendo recebidas pelos usuários mais antigos e pelos usuários recém chegados.
+Pode-se chegar à conclusão de que os usuários mais antigos usam o sistema com frequência, mas nunca efetuam pagamentos, i.e., não são lucrativos, ou vice-versa.
+ 
+Esta análise também pode ser utilizada para verificar se usuários provenientes de uma determinada campanha de marketing são mais lucrativos do que a média. Neste caso cada Coorte representa o grupo de usuários que se registraram no período da campanha, ou melhor ainda, nos casos de campanhas digitais, é possível rastrear a origem do usuário como sendo da campanha para segmenta-lo corretamente.
+
+Finalmente, se olharmos somente as métricas de vaidade consolidadas (quantidade de downloads, número de usuários, etc.), utilizando a totalidade da base de usuários, os fundadores podem estar se enganando, pois é possível que essas métricas globais não representem a realidade atual da startup. 
+
+
+\begin{figure}
+\caption{TODO: Exemplo de análise de coorte}
+\end{figure}
+
+
+
+\subsubsection{Saia do escritório e venda}
+
+Depois que a estrutura de coleta e análise de dados está montada, é hora de sair do escritório e conseguir os primeiros usuários do produto. Nesta fase os fundadores devem validar hipóteses do modelo de negócios tais como "se eu investir US\$100,00 em AdWords eu vou obter 30 acessos ao meu site", ou "para cada US\$150,00 gastos em Facebook Ads eu terei 10 novas vendas da minha aplicação".
+
+Frequentemente o retorno obtido por cada canal pode ser otimizado. Por exemplo, aumentar a velocidade de acesso e diminuir o tempo que um site leva para carregar tem efeitos diretos sobre o número de acessos. Um artigo em um site ou blog de alta frequentação pode aumentar o público de um produto e aumentar a quantidade de instalações de uma aplicação. Nesta fase os fundadores devem preparar planos de otimização para cada canal utilizado e implementá-los para melhorar os resultados. 
+
+Sites de e-commerce devem começar otimizando tráfego e quantidade inicial de pedidos, e em seguida aumentar o tamanho médio de um pedido, aumentar a quantidade de usuários que fazem pedidos recorrentes e aumentar o número de indicações de seus clientes. Mercados multi-laterais, como aplicações suportadas por anúncios, devem se concentrar inicialmente em aumentar o tráfego total, em seguida na quantidade de membros ou assinantes, no número de usuários ativos por dia, minutos de engajamento, visitas repetidas e recomendações. Só depois que os fundadores devem otimizar o outro lado do mercado, maximizando o faturamento por anúncios ou o custo por mil exibições (CPM). \textit{Marketplaces} devem se concentrar nos mesmos itens que os sites de e-commerce para atrair compradores, mas também aumentar o número de vendedores, a aquisição de vendedores e a quantidade de itens que são realmente vendidos.
+
+Também é importante  otimizar os esforços de obtenção de usuários. Cada modelo de negócios tem uma estratégia de otimização apropriada. Produtos que são vendidos por assinatura, como \textit{Software As a Service} devem tentar obter clientes que explorem as possibilidades do serviço através de uma de testes de baixo custo ou gratuita. Produtos caros devem se certificar que os clientes são direcionados ao canal de vendas apropriado e que desenvolvam uma relação com o canal. Aplicações baratas e jogos devem tentar realizar vendas tão logo os clientes comecem a utilizar a aplicação. Redes sociais devem encorajar os usuários recém-chegados a participar de algumas interações sociais com o restante da rede para "viciar" o usuário e fazer com que ele convide amigos. Mercados multi-laterais devem atrair usuários que vão acessar o serviço frequentemente, ficar por bastante tempo e trarão seus amigos. Marketplaces, finalmente, devem encorajar a participação dos vendedores, que eles vendam múltiplos itens, e que eles rapidamente realizem vendas através do serviço.
+
+A cada mudança na sua estratégia de obtenção de clientes, realize testes controlados para identificar se a mudança no comportamento dos clientes é conseqüência da sua mudança de estratégia ou de outros fatores aleatórios que coincidiram com a sua mudança. Uma forma de avaliar com segurança os efeitos de uma mudança é realizar testes A/B: apresente para um grupo de usuários a versão A do seu produto, para outro grupo a versão B, e compare as métricas que você procurou otimizar da versão A para a versão B. O novo site gera mais inscrições? O novo fluxo de pagamento gera mais pedidos?
+
+
+
+\subsubsection{Ajuste seu produto}
+
+Depois de executadas as duas fases anteriores, você deve saber exatamente porque os clientes compram o seu produto e qual a reação dos clientes à sua proposição de valor. Nesta fase os fundadores devem desenvolver um posicionamento do produto, ajustar o posicionamento do produto ao tipo de mercado, definir o posicionamento da empresa, e realizar apresentações para pessoas influentes da indústria para validar os posicionamentos.
+
+Até este momento a startup investiu pouco em marketing e o produto é conhecido apenas de um pequeno grupo de \textit{early adopters}. Mas agora a startup precisa se preparar para pisar no acelerador, e para isso ela deve ser capaz de comunicar ao seu público quem ela é e o que ela faz. Resista à tentação de contratar uma agência de comunicação (em geral bem cara) para definir este posicionamento. O posicionamento inicial pode ser feito pela equipe responsável pelo desenvolvimento do cliente, que é quem melhor conhece os clientes da empresa e as razões que levaram eles a utilizarem os produtos da empresa.
+
+Para saber como posicionar a empresa também é interessante saber a visão que seus clientes tem da sua empresa e de seus concorrentes. Isto geralmente é feito através de entrevistas com os clientes, e apesar de que grande parte deste processo possa ser realizado por uma agência de relações públicas, é importante que os fundadores participem das primeiras entrevistas ou até mesmo façam as primeiras entrevistas.
+
+O posicionamento do produto deve ser um sumário de uma página explicando o objetivo do produto. Adapte este posicionamento ao tipo de mercado do seu produto: compare seu produto com os concorrentes se eles existirem, ou detalhe o problema a ser resolvido e as vantagens da sua solução caso eles não existam. Este sumário será posteriormente utilizado para garantir que todo material de marketing que será desenvolvido a seguir (panfletos, \textit{white papers}, apresentações, etc.) passe a mensagem correta.
+
+O posicionamento da empresa deve responder à perguntas do tipo "O que esta empresa pode fazer por mim?", "Por que eu faria negócios com eles?" ou "Por que esta empresa existe e por que eles são diferentes?". Escreva a primeira versão da forma mais simples possível, sempre colocando os clientes em primeiro lugar. Assim como o posicionamento do produto, o posicionamento da empresa deve ser um sumário que irá guiar a elaboração de outros documentos de marketing (\textit{press releases}, apresentações de venda, websites) e garantir que a mensagem é consistente em todo material de marketing.
+
+
+% 300 palavras
+\paragraph{Encaixe Produto/Mercado (Product/Market FIT)}
+responsável: fabs revisor: jm
+
+Marc Andressen, co-fundador da \emph{Netscape} e criador do \emph{Mosaic}, navegador popularmente conhecido como responsável pela popularização do \emph{www} costuma definir o Encaixe Produto/Mercado como a única coisa que importa em uma startup. Para esse empreendedor e investidor, quando uma startup falha, é porque não conseguiu atingir este \emph{fit}, quando dá certo, é porque atingiu um encaixe entre o produto, e um mercado de clientes que deseja o produto. 
+
+O conceito de Encaixe Produto/Mercado usualmente gera mais perguntas do que respostas. A maior parte dos empreendedores e autores no assunto ainda tem dificuldades em definir como se atinge esse objetivo. Por um lado é fácil ver uma empresa que atingiu o Encaixe Produto/Mercado. Clientes não param de bater na porta, e a contratação de funcionários é frequente, e novos servidores e infra-estrutura são adicionados o mais rápido que se consegue. Esse é um momento de transição da empresa, em que o modelo de negócios está validado, e a empresa precisa então expandir e crescer, usando técnicas apresentadas nas fases finais na seção de Desenvolvimento do Cliente.
+
+Por outro lado, quando uma empresa não consegue atingir este encaixe, o negócio simplesmente não se desenvolve, e a razão é pouco aparente. Sean Ellis, co-fundador da \emph{12in6}, uma consultoria que ajuda startups a fazer a transição de antes do encaixe para após o encaixe tem um teste para identificar que o fit ocorre. Que incorre em medir o quanto os seus clientes ficariam desapontados caso o produto simplesmente desaparecesse. Sean afirma que para a maior parte dos mercados, um número superior a 40\% indica um produto com bom encaixe com o mercado. Embora não muito científico, esse valor é extraído de uma pesquisa feita com 100 startups de sucesso no Vale do Silício.
+
+Uma outra maneira de procurar o encaixe é através da métrica retenção, do funil de métricas AARRR. Enquanto procura-se o \emph{fit}, uma empresa deve investir e focar em ações, funcionalidades, e escolhas que aumentem essa métrica. Se os clientes são retidos cada vez mais, e se o tempo que ficam até deixar o sistema aumenta, esse é um indício de que se trata de um produto com maiores chances de encontrar o Encaixe de Mercado.
+
+
+\subsubsection{Pivote ou continue}
+
+Finalmente, esta é a fase mais crítica do processo de validação de clientes. Os fundadores devem determinar honestamente se eles estão diante de um modelo de negócios escalável, repetitível e rentável. Este é o momento que vai decidir o futuro da empresa, e é a hora de revisar todos os resultados dos testes, todos os retornos dos clientes e todos os \textit{insights} que os fundadores tiveram ao longo do processo. Os fundadores devem determinar se a startup está pronta a gastar dinheiro para escalar, e se isso vai resultar em uma grande empresa rentável.
+
+Pode ser que neste momento a startup conclua que necessita de 300.000 usuários para ser rentável, mas que o mercado não é suficientemente grande para que a startup consiga este número de usuários. Ou que os custos de obtenção de clientes são muito altos tornando impossível que a startup seja rentável. Em alguns casos, mais testes são necessários para otimizar as formas de aquisição de clientes ou o desenvolvimento de novos canais. Em outros casos, a única forma de corrigir estas anomalias é pivotando o modelo de negócios.
+
+Para que esta decisão seja fundamentada em dados obtidos pela startup durante o processo de desenvolvimento de clientes é importante que todos os fundadores estejam reunidos em uma sala durante um ou dois dias, e que tenham acesso a todas informações obtidas durante o processo: a versão mais recente do painel de modelo de negócios e uma ou duas versões mais antigas, todas hipóteses e os resultados dos testes de validação, os valores das métricas de progresso mais importantes e o plano de execução de vendas. Revise os retornos dos clientes, os tamanhos de mercado estimados, os preços, custos de aquisição de usuários, e todas outras informações que possam influenciar sua tomada de decisão.
+
+%\subsubsection{Criação de Clientes}
+%\label{criacao}
+%responsável:Roberto revisor: Fabio\\
+
+%(o livro do Steve Blank não tem muita coisa sobre esta fase não. Na minha opinião ele juntou tudo na fase anterior de validação de clientes -- as estratégias de otimização de obtenção de clientes são exatamente isso. De qualquer forma, mesmo se o processo de customer development tem 4 caixinhas, o livro dele só tem dois capítulos: step one, customer discovery, step two customer validation. Acho que customer creation já é a execução do business plan e acontece quando a empresa deixa de ser startup, e portanto fora do escopo do livro)
+
+%\subsubsection{Construção da Empresa}
+%\label{construcao}
+%responsável:Roberto revisor: Fabio \\
+
+%(Eu sinceramente acho que esta seção não deveria existir. No livro do Steve Blank são umas 10 páginas catadas de qualquer jeito apresentando uma estratégia meia boca para criar um serviço web ou uma aplicação que ele utilizou no curso dele com estudantes de administração. Pra piorar, a estratégia muitas vezes é conflitante com o processo que ele apresentou anteriormente. O Running Lean faz um trabalho muito melhor nesse sentido)
+
 
 
 % 200 palavras
-\subsection{Negócio}
+\subsection{Painel de Negócio}
 responsável: fabs revisor: jm
 
 Em uma empresa tradicional, é função do Plano de Negócios ser a fonte das definições a respeito dos objetivos de uma empresa, as razões pelas quais se acredita que sejam atingíveis (as hipóteses) e o plano para atingir esses objetivos. Tais planos podem variar de algumas a muita dezenas de páginas, sendo as vezes documentos precisos a respeito do plano. Em uma startup porém, governam incertezas a respeito do negócio, e o cenário está em constante mudança, com pivos acontecendo e a estratégia sendo desenvolvida \emph{on the fly}. 
 
-Enquanto uma empresa não encontra um Encaixe Produto/Mercado (visto à seguir), é impossível desenvolver, e adaptar rapidamente um documento tão extenso e detalhado. Para isso, existe uma ferramenta alternativa, mais simples e que pode capturar as hipóteses e o plano de uma empresa em menos de 20 minutos, o Painel de Negócios\footnote{No livro [Referencia do Running Lean], é apresentado uma versão de Painel de negócios ainda mais otimizada para startups}. Na seção à seguir, apresentaremos essa ferramenta brevemente, ficando um estudo mais aprofundado disponível no livro [referenciar o livro do Osterwalder].
+Enquanto uma empresa não encontra um Encaixe Produto/Mercado, é impossível desenvolver, e adaptar rapidamente um documento tão extenso e detalhado. Para isso, existe uma ferramenta alternativa, mais simples e que pode capturar as hipóteses e o plano de uma empresa em menos de 20 minutos, o Painel de Negócios\footnote{No livro [Referencia do Running Lean], é apresentado uma versão de Painel de negócios ainda mais otimizada para startups}. Na seção à seguir, apresentaremos essa ferramenta brevemente, ficando um estudo mais aprofundado disponível no livro [referenciar o livro do Osterwalder].
 
 Assim como em um plano convencional, o Painel de negócios captura em essência, como uma empresa gera, entrega e captura valor.
-
-% 500 palavras
-\subsubsection{Painel de Negócio}
-responsável: fabs revisor: jm
 
 O painel de negócios é composto por 9 áreas, que podem ser preenchidas em qualquer ordem.
 
@@ -406,15 +400,4 @@ O painel de negócios é composto por 9 áreas, que podem ser preenchidas em qualqu
 \textbf{Estrutura de Custos}: Finalmente, a estrutura de custos fecha a parte esquerda representando todos os custos essenciais na entrega do valor para o cliente. Uma quadro de negócios é viável quando a parte esquerda e seus custos são cobertos pelo captura do valor gerado na área de fontes de receita e há geração de lucros. Embora custos devam sempre ser minimizados, para alguns negócios é essencial uma estrutura de custos eficiente, essas empresas são dirigidas pelo custo. Em outros casos a geração de valor é mais importante do que os baixos custos, essas empresas são dirigidas pelo valor. Exemplo: Hoteis de Luxo, Campos de Golf, Spas e carros esportivos são empresas dirigidas por valor, enquanto \emph{Ryanair} e \emph{easyjet}, empresas aéreas que oferecem os vôos mais baratos possíveis, são dirigidas por custos.
 
 
-% 300 palavras
-\subsubsection{Encaixe Produto/Mercado (Product/Market FIT)}
-responsável: fabs revisor: jm
-
-Marc Andressen, co-fundador da \emph{Netscape} e criador do \emph{Mosaic}, navegador popularmente conhecido como responsável pela popularização do \emph{www} costuma definir o Encaixe Produto/Mercado como a única coisa que importa em uma startup. Para esse empreendedor e investidor, quando uma startup falha, é porque não conseguiu atingir este \emph{fit}, quando dá certo, é porque atingiu um encaixe entre o produto, e um mercado de clientes que deseja o produto. 
-
-O conceito de Encaixe Produto/Mercado usualmente gera mais perguntas do que respostas. A maior parte dos empreendedores e autores no assunto ainda tem dificuldades em definir como se atinge esse objetivo. Por um lado é fácil ver uma empresa que atingiu o Encaixe Produto/Mercado. Clientes não param de bater na porta, e a contratação de funcionários é frequente, e novos servidores e infra-estrutura são adicionados o mais rápido que se consegue. Esse é um momento de transição da empresa, em que o modelo de negócios está validado, e a empresa precisa então expandir e crescer, usando técnicas apresentadas nas fases finais na seção de Desenvolvimento do Cliente.
-
-Por outro lado, quando uma empresa não consegue atingir este encaixe, o negócio simplesmente não se desenvolve, e a razão é pouco aparente. Sean Ellis, co-fundador da \emph{12in6}, uma consultoria que ajuda startups a fazer a transição de antes do encaixe para após o encaixe tem um teste para identificar que o fit ocorre. Que incorre em medir o quanto os seus clientes ficariam desapontados caso o produto simplesmente desaparecesse. Sean afirma que para a maior parte dos mercados, um número superior a 40\% indica um produto com bom encaixe com o mercado. Embora não muito científico, esse valor é extraído de uma pesquisa feita com 100 startups de sucesso no Vale do Silício.
-
-Uma outra maneira de procurar o encaixe é através da métrica retenção, do funil de métricas AARRR. Enquanto procura-se o \emph{fit}, uma empresa deve investir e focar em ações, funcionalidades, e escolhas que aumentem essa métrica. Se os clientes são retidos cada vez mais, e se o tempo que ficam até deixar o sistema aumenta, esse é um indício de que se trata de um produto com maiores chances de encontrar o Encaixe de Mercado.
 
