@@ -1,9 +1,11 @@
 %!TEX encoding = IsoLatin
-\section{Desenvolvimento do Cliente}
+\section{Desenvolvimento de Cliente (REVER ESSE NOME)}
+responsável: Roberto revisor: Julian
 
 Nesta seção procuramos detalhar as principais preocupações que uma startup de sucesso deve ter. Como definimos anteriormente, uma startup é uma organização temporária em busca de um modelo de negócios rentável, repetitível e escalável. A startup deve então otimizar esta busca para que ela utilize a menor quantidade de recursos e dê resultados o mais rápido possível. Nas próximas páginas vamos explicar como isto pode ser feito de forma sistemática. 
 
 \subsection{Metodologia}
+responsável: Roberto revisor: Julian
 
 Os clientes são a razão de existir de qualquer empresa. Mas em uma startup, os clientes podem ser considerados como co-fundadores: eles não vão apenas utilizar ou comprar o seu produto, eles vão orientar o desenvolvimento, determinar as funcionalidades que devem incluídas, e principalmente, \textbf{definir o seu modelo de negócios}.
 
@@ -38,34 +40,35 @@ Por estas razões, a principal atividade de uma startup após a sua fundação deve 
 \item \textbf{O sucesso do desenvolvimento de cliente começa com o comprometimento}\\ A filosofia de busca de um modelo de negócios do desenvolvimento de cliente pode confundir fundadores, engenheiros ou investidores acostumados a seguir um plano. Para que ela tenha sucesso, todos envolvidos com a startup devem estar comprometidos com a filosofia e devem aceitar que o processo é tortuoso e pode em alguns casos durar anos.
 \end{enumerate}
 
-O processo de desenvolvimento de cliente tem 2 etapas: a etapa de busca de um modelo de negócios e a etapa de execução, que é onde a startup acelera seu desenvolvimento utilizando o modelo de negócios descoberto na fase anterior. A busca de um modelo de negócios tem duas fases: a fase de descoberta de clientes, detalhada na seção~\ref{descoberta} e a fase de validação de clientes, que descrevemos na seção~\ref{validacao}. Como veremos mais adiante, estas fases se repetem até que a startup encontre seu modelo de negócios repetitível, escalável e rentável. A etapa de execução também contém duas fases, a de criação de clientes e a fase de construção da empresa.
+O processo de desenvolvimento de cliente tem 2 etapas: a etapa de busca de um modelo de negócios e a etapa de execução, que é onde a startup acelera seu desenvolvimento utilizando o modelo de negócios descoberto na fase anterior. A busca de um modelo de negócios tem duas fases: a fase de descoberta de clientes, detalhada na seção~\ref{descoberta} e a fase de validação de clientes, que descrevemos na seção~\ref{validacao}. Como veremos mais adiante, estas fases se repetem até que a startup encontre seu modelo de negócios repetitível, escalável e rentável. A etapa de execução também contém duas fases, a de criação de clientes e a fase de construção da empresa, que não são detalhadas neste livro mas podem ser encontradas em~\cite{Blank2012}.
 
-\textbf{não estamos discutindo sobre essas duas últimas:  criação de clientes e a fase de construcao da empresa.}
+\textbf{*** (não estamos discutindo sobre essas duas últimas:  criação de clientes e a fase de construcao da empresa) ***}
 
 
 \subsection{Métodos Ágeis}
+\label{agil}
+responsável: Julian revisor: Roberto
 
 O conjunto de práticas da metodologia enxuta são muito dinâmicas, durante os ciclos "Construir-Medir-Aprender"~são necessárias modificações no plano inicial de trabalho para se adequar ao plano de negócios que também está em constante evolução. No contexto de software é importante adotar um processo de desenvolvimento que seja flexível o suficiente para se adequar às mudanças e à velocidade de evolução do plano de negócios.
 
 Nesta seção abordaremos os conceitos e a literatura sobre métodos ágeis de desenvolvimento de software, um movimento que preconiza metodologias que se adaptam mais facilmente às mudanças e produzem software de melhor qualidade, e que são especialmente adaptados à metodologia da startup enxuta.
 
 As características chave da metodologia de desenvolvimento adotata deve favorecer a criação de protótipos, à realização de testes e experimentos com os clientes,  prover entregas frequentes e incrementais, além de manter uma comunicação eficiente entre os entes do projeto.
-Essas características estão de acordo com as valores propostos pelo Manifesto ágil \cite{MANIFESTO_AGIL}:
-
-- Indivíduos e interação entre eles mais que processos e ferramentas
-
-- Software em funcionamento mais que documentação abrangente
-
-- Colaboração com o cliente mais que negociação de contratos
-
-- Responder a mudanças mais que seguir um plano
+Essas características estão de acordo com as valores propostos pelo Manifesto ágil ~\footnote{\url{http://manifestoagil.com.br/}} em 2001:
+\begin{itemize}
+\item Indivíduos e interação entre eles mais que processos e ferramentas
+\item Software em funcionamento mais que documentação abrangente
+\item Colaboração com o cliente mais que negociação de contratos
+\item Responder a mudanças mais que seguir um plano
+\end{itemize}
 
 
 O mercado de software já tem trabalhado com diversas metodologias que dão suporte à essa dinamicidade. Entre elas temos Scrum, Kanban, eXtreme Programming, que são descritas a seguir.
 
 
 
-\textbf{Scrum}\cite{???} - é um framework para organização e gerenciamento de projetos, iterativo e simples. No contexto de software, o objetivo é entregar novas funcionalidades de maneira incremental ao final de cada ciclo de desenvolvimento, ou iteração (\emph{sprint}). Scrum não é um processo preescritivo, é um conjunto de práticas que dão visibilidade ao andamento do projeto. É recomendada em projetos empíricos, ou seja, ambientes com muita incerteza, caóticos e de difícil previsibilidade. 
+
+\paragraph{Scrum} - é um framework para organização e gerenciamento de projetos, iterativo e simples. No contexto de software, o objetivo é entregar novas funcionalidades de maneira incremental ao final de cada ciclo de desenvolvimento, ou iteração (\emph{sprint}). Scrum não é um processo preescritivo, é um conjunto de práticas que dão visibilidade ao andamento do projeto. É recomendada em projetos empíricos, ou seja, ambientes com muita incerteza, caóticos e de difícil previsibilidade. 
 
 Existem três papeis principais no Scrum: o  Dono do Produto (\emph{Product Owner}, o   Mestre de Scrum (\emph{Scrum Master}) e a equipe de desenvolvimento. 
 
@@ -86,7 +89,7 @@ Ao final da iteração a equipe deve gerar um produto funcional e entregável super
 
 
 
-\textbf{EXtreme Programming}\cite{???} (XP) --- é um processo ágil de desenvolvimento de software baseado em iterações rápidas com pouco planejamento formal. A lista de itens a serem desenvolvidos é particionada em pequenas Histórias de Usuário (\emph{User Stories}) - uma frase descrevendo uma necessidade.  A partir destas histórias estimadas pela equipe o cliente decide quais irão fazer parte da próxima iteração.
+\paragraph{EXtreme Programming (XP)} --- é um processo ágil de desenvolvimento de software baseado em iterações rápidas com pouco planejamento formal. A lista de itens a serem desenvolvidos é particionada em pequenas Histórias de Usuário (\emph{User Stories}) - uma frase descrevendo uma necessidade.  A partir destas histórias estimadas pela equipe o cliente decide quais irão fazer parte da próxima iteração.
 
 Os príncipios fundamentais de XP são o código simples e de qualidade, comunicação eficiente e trabalho em equipe. Em comparação com Scrum, as práticas de XP estão mais voltadas para técnicas de implementação de software em sí,  enquanto Scrum é o ferramental para o gerenciamento do produto como um todo.
 Dentre as boas práticas recomendadas pelo XP estão o desenvolvimento orientado a testes, programação em pares, propriedade coletiva do código, integração contínua, simplicidade do código, refatoração, padrões de código, etc.
@@ -94,12 +97,12 @@ O objetivo principal ao final cada iteração e gerar software que agrega valor ao
 
 
 
-\textbf{Kanban}\cite{/???} --- baseado nas práticas Lean\cite{???} da linha de produção da Toyota\cite{???}, no nosso contexo Kanban é um método de desenvolvimento que tem como objetivo deixar o processo mais enxuto e fluido, sem muita rigidez e com um forte apelo à visualização do trabalho em andamento.
+\paragraph{Kanban}\cite{ries:2011} --- baseado nas práticas Lean da linha de produção da Toyota. No nosso contexo, Kanban é um método de desenvolvimento que tem como objetivo deixar o processo mais enxuto e fluido, sem muita rigidez e com um forte apelo à visualização do trabalho em andamento.
 
 O método define um fluxo de trabalho contínuo, em que as entregas são feitas a todo momento. O importante é limitar a carga de trabalho que está sendo realizada simultaneamente (work-in-progress). Essa limitação propicia  mais foco nas tarefas que estão sendo executadas.
 
 Na prática, é preciso definir um quadro de apoio com os diferentes estágios que uma funcionalidade precisa passar para ser executa (ex., backlog, selecionado, desenvolvimento, validação, entrega, feito).
-Apesar de nao prescrever reuniões ou cerimônias, mesclar com algumas práticas de Scrum e XP pode ser necessário para introduzir um pouco de disciplina no processo, por exemplo, as reuniões diárias e a retrospectiva de Scrum.
+Apesar de não prescrever reuniões ou cerimônias, mesclar com algumas práticas de Scrum e XP pode ser necessário para introduzir um pouco de disciplina no processo, por exemplo, as reuniões diárias e a retrospectiva de Scrum.
 
 
 
@@ -108,6 +111,7 @@ Apesar de nao prescrever reuniões ou cerimônias, mesclar com algumas práticas de
 \subsection{Descoberta de Clientes}
 \label{descoberta}
 responsável:Roberto revisor: Fabs\\
+
 O objetivo da descoberta de clientes é o de identificar se existe um problema a ser resolvido, se este problema pode ser resolvido, e se existe um número suficiente de pessoas que utilizariam um produto que resolva o problema. A descoberta de clientes obtém respostas a estas questões sistematicamente através de um processo contínuo de teste e validação com potenciais clientes.
 
 O processo de descoberta de clientes é formado por 3 fases que descreveremos a seguir: (i) criação de um painel de modelo de negócios detalhando a visão dos fundadores e suas hipóteses, (ii) teste do seu problema e sua solução, validando as hipóteses do modelo de negócios, (iii) avaliação dos resultados e decisão de obter mais informações ou seguir para o passo seguinte, a validação de clientes (descrita na seção~\ref{validacao}).
@@ -276,6 +280,7 @@ Fundadores devem utilizar as métricas AARRR para manter o foco em pontos importa
 
 \paragraph{Análise de Coorte}
 \label{coorte}
+responsável:Julian revisor: Fabio\\
 
 Toda a dinâmica descrita neste capítulo envolve experimentações, modificações e mudanças de rumo da startup com o objetivo de encontrar um consumidor pagante.
 As métricas AARRR apresentadas  conseguem nos trazer dados consolidados, em grandes números, e nos dão uma visão geral do desempenho da startup.
@@ -298,7 +303,6 @@ Finalmente, se olharmos somente as métricas de vaidade consolidadas (quantidade 
 \centerline{\includegraphics*[width=09cm]{figuras/coorte}}
 \caption{Exemplo de análise de Coorte}
 \end{figure}
-
 
 
 \subsubsection{Saia do escritório e venda}
@@ -330,7 +334,7 @@ O posicionamento da empresa deve responder à perguntas do tipo "O que esta empre
 
 % 300 palavras
 \paragraph{Encaixe Produto/Mercado (Product/Market FIT)}
-responsável: fabs revisor: jm
+responsável: fabs revisor: Julian
 
 Marc Andressen, co-fundador da \emph{Netscape} e criador do \emph{Mosaic}, navegador popularmente conhecido como responsável pela popularização do \emph{www} costuma definir o Encaixe Produto/Mercado como a única coisa que importa em uma startup. Para esse empreendedor e investidor, quando uma startup falha, é porque não conseguiu atingir este \emph{fit}, quando dá certo, é porque atingiu um encaixe entre o produto, e um mercado de clientes que deseja o produto. 
 

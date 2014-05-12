@@ -20,27 +20,24 @@ A submissão: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkz
     [Fabs/Julian] 2.4 O Método Lean Startup
     [Fabs/Julian] 2.5 Práticas do Método Lean Startup
 
-3 Preocupações de uma startup (15 páginas)
+3 Desenvolvimento do Cliente 
+    [Roberto/xxx]   3.1 Metodologia
 
-    [Roberto/Fabs] 3.1 Clientes
-    [Roberto/Fabs] 3.1.1 Desenvolvimento de Cliente (Customer Development)
-    [Roberto/Fabs] 3.1.2 Descoberta de Clientes
-    [Roberto/Fabs] 3.1.3 Validação de Clientes
-    [Roberto/Fabio] 3.1.4 Criação de Clientes
-    [Roberto/Fabio] 3.1.5 Construção da Empresa
-    [Roberto/Fabio] 3.1.6 Métricas de uso e o funíl de conversão AARRR
-    [Julian/Fabio] 3.1.7 Análise de Coorte
-    [Julian/Fabio] 3.1.8 Encaixe Problema/Solução (Problem/Solution FIT) [Running Lean]
+    [Julian/xxx]   3.2 Metodos Ageis
 
-    [Julian/Roberto] 3.2 Produto
-    [Julian/Roberto] 3.2.1 MVP
-    [Julian/Roberto] 3.2.2 Métodos Ágeis
-    [Julian/Roberto] 3.2.3 Prototipagem em papel
-    [Julian/Roberto] 3.2.4 Encaixe Produto/Lançamento (Product/Launch)
+    [Roberto/xxx]   3.3 DescobertadeClientes
+    [Roberto/xxx]   3.3.1Detalhando a visa?o dos fundadores
+    [Julian/xxx]  3.3.2 MenorProdutoVia?vel(MPV)
+    [Roberto/xxx  3.3.3Saiadoescrito?rioeaprenda
+    [Roberto/xxx] 3.3.4Pivoteoucontinue
+  
+   [Roberto/xxx] 3.4Validac?a?odeClientes
+   [Julian/xxx]  3.4.1Preparac?a?oparaasvendas
+   [Roberto/xxx] 3.4.2Saiadoescrito?rioevenda
+   [Roberto/xxx] 3.4.3Ajusteseuproduto
+   [Roberto/xxx] 3.4.4Pivoteoucontinue
 
-    [Fabs/Julian] 3.3 Negócio
-    [Fabs/Julian] 3.3.1 Painel de Negócios (Business Model Canvas)
-    [Fabs/Julian] 3.3.2 Encaixe Produto/Mercado (Product/Market FIT)
+   [Fabs/xxx]  3.5 PaineldeNego?cio
 
 4 Ecossistema (10 páginas)
 
@@ -64,3 +61,33 @@ Julian      = 0
 Roberto     = 0
 
 Bibliografia = 0
+
+
+
+---
+ANTIGA distribui��o do capitulo 3
+----
+
+3 Preocupações de uma startup (15 páginas)
+
+    [Roberto/Fabs] 3.1 Clientes
+    [Roberto/Fabs] 3.1.1 Desenvolvimento de Cliente (Customer Development)
+    [Roberto/Fabs] 3.1.2 Descoberta de Clientes
+    [Roberto/Fabs] 3.1.3 Validação de Clientes
+    [Roberto/Fabio] 3.1.4 Criação de Clientes
+    [Roberto/Fabio] 3.1.5 Construção da Empresa
+    [Roberto/Fabio] 3.1.6 Métricas de uso e o funíl de conversão AARRR
+    [Julian/Fabio] 3.1.7 Análise de Coorte
+    [Julian/Fabio] 3.1.8 Encaixe Problema/Solução (Problem/Solution FIT) [Running Lean]
+
+    [Julian/Roberto] 3.2 Produto
+    [Julian/Roberto] 3.2.1 MVP
+    [Julian/Roberto] 3.2.2 Métodos Ágeis
+    [Julian/Roberto] 3.2.3 Prototipagem em papel
+    [Julian/Roberto] 3.2.4 Encaixe Produto/Lançamento (Product/Launch)
+
+    [Fabs/Julian] 3.3 Negócio
+    [Fabs/Julian] 3.3.1 Painel de Negócios (Business Model Canvas)
+    [Fabs/Julian] 3.3.2 Encaixe Produto/Mercado (Product/Market FIT)
+
+
