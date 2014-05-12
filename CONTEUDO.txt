@@ -20,24 +20,25 @@ A submissão: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkz
     [Fabs/Julian] 2.4 O Método Lean Startup
     [Fabs/Julian] 2.5 Práticas do Método Lean Startup
 
-3 Desenvolvimento do Cliente 
+3 Desenvolvimento do Cliente
+ 
     [Roberto/xxx]   3.1 Metodologia
 
     [Julian/xxx]   3.2 Metodos Ageis
 
-    [Roberto/xxx]   3.3 DescobertadeClientes
-    [Roberto/xxx]   3.3.1Detalhando a visa?o dos fundadores
-    [Julian/xxx]  3.3.2 MenorProdutoVia?vel(MPV)
-    [Roberto/xxx  3.3.3Saiadoescrito?rioeaprenda
-    [Roberto/xxx] 3.3.4Pivoteoucontinue
+    [Roberto/xxx]   3.3 Descoberta de Clientes
+    [Roberto/xxx]   3.3.1 Detalhando a visaao dos fundadores
+    [Julian/xxx]  3.3.2 Menor Produto Viavel(MPV)
+    [Roberto/xxx  3.3.3 Saia do escritorio e aprenda
+    [Roberto/xxx] 3.3.4 Pivote ou continue
   
-   [Roberto/xxx] 3.4Validac?a?odeClientes
-   [Julian/xxx]  3.4.1Preparac?a?oparaasvendas
-   [Roberto/xxx] 3.4.2Saiadoescrito?rioevenda
-   [Roberto/xxx] 3.4.3Ajusteseuproduto
-   [Roberto/xxx] 3.4.4Pivoteoucontinue
+   [Roberto/xxx] 3.4Validacao de Clientes
+   [Julian/xxx]  3.4.1Preparacao para as vendas
+   [Roberto/xxx] 3.4.2 Saia do escritorio e venda
+   [Roberto/xxx] 3.4.3 Ajuste seu produto
+   [Roberto/xxx] 3.4.4 Pivote ou continue
 
-   [Fabs/xxx]  3.5 PaineldeNego?cio
+   [Fabs/Julian]  3.5 Painel de Negocio
 
 4 Ecossistema (10 páginas)
 
