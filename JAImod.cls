@@ -7,7 +7,7 @@
 % Identification
 %=======================================================================
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{JAI}[24/04/2006 v0.1 by Lemos and Ferrari (ICMC/USP)]
+\ProvidesClass{JAImod}[24/04/2006 v0.1 by Lemos and Ferrari (ICMC/USP)]
 
 %=======================================================================
 % Declaration of variables
