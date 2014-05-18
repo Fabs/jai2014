@@ -1,11 +1,11 @@
 %!TEX encoding = IsoLatin
-\section{Desenvolvimento de Cliente (REVER ESSE NOME)}
-responsável: Roberto revisor: Julian
+\section{O cliente como elemento central da startup} %antigo Desenvolvimento de Cliente
+%responsável: Roberto revisor: Julian
 
 Nesta seção, procuramos detalhar as principais preocupações que uma startup de sucesso deve ter. Como definimos anteriormente, uma startup é uma organização temporária em busca de um modelo de negócios rentável, repetitível e escalável. A startup deve então otimizar esta busca para que ela utilize a menor quantidade de recursos e dê resultados o mais rápido possível. Nas próximas páginas vamos explicar como isto pode ser feito de forma sistemática. 
 
 \subsection{Metodologia}
-responsável: Roberto revisor: Julian
+%responsável: Roberto revisor: Julian
 
 Os clientes são a razão de existir de qualquer empresa. Mas em uma startup, os clientes podem ser considerados como co-fundadores: eles não vão apenas utilizar ou comprar o seu produto, eles vão orientar o desenvolvimento, determinar as funcionalidades que devem incluídas, e principalmente, \textbf{definir o seu modelo de negócios}.
 
@@ -15,7 +15,7 @@ Considere por exemplo a Color Labs, Inc., uma startup californiana que pretendia
 
 Por estas razões, a principal atividade de uma startup após a sua fundação deve ser o desenvolvimento de cliente, ou \textit{customer development} em inglês. Steve Blank, principal responsável por criar a metodologia de desenvolvimento de clientes enumerou os 14 princípios da metodologia em um manifesto\footnote{\url{steveblank.com/2012/03/29/nail-the-customer-development-manifesto}}. São eles:
 
-(vale a pena enumerar os princípios aqui? o nosso livro tem que ficar de pé sozinho?) Sim. Vale!
+%(vale a pena enumerar os princípios aqui? o nosso livro tem que ficar de pé sozinho?) Sim. Vale!
 
 \begin{enumerate}
 \item \textbf{Não existem fatos dentro do seu prédio, então vá buscá-los}\\ Os fundadores devem buscar os retornos dos clientes em primeira mão, lá onde eles se encontram. Isto não deve ser feito pelos primeiros empregados ou, pior, por consultores: apenas os fundadores podem compreender completamente os retornos dos clientes e agir rapidamente.
@@ -42,19 +42,19 @@ Por estas razões, a principal atividade de uma startup após a sua fundação deve 
 
 O processo de desenvolvimento de cliente tem duas etapas: a etapa de busca de um modelo de negócios e a etapa de execução, que é onde a startup acelera seu desenvolvimento utilizando o modelo de negócios descoberto na fase anterior. A busca de um modelo de negócios tem duas fases: a fase de descoberta de clientes, detalhada na Seção~\ref{descoberta} e a fase de validação de clientes, que descrevemos na Seção~\ref{validacao}. Como veremos mais adiante, estas fases se repetem até que a startup encontre seu modelo de negócios repetitível, escalável e rentável. A etapa de execução também contém duas fases, a de criação de clientes e a fase de construção da empresa, que não são detalhadas neste livro mas podem ser encontradas em~\cite{Blank2012}.
 
-\textbf{*** (não estamos discutindo sobre essas duas últimas:  criação de clientes e a fase de construcao da empresa) ***}
+%\textbf{*** (não estamos discutindo sobre essas duas últimas:  criação de clientes e a fase de construcao da empresa) ***}
 
 
 \subsection{Métodos Ágeis}
 \label{agil}
-responsável: Julian revisor: Roberto
+%responsável: Julian revisor: Roberto
 
 O conjunto de práticas da metodologia enxuta são muito dinâmicas, durante os ciclos "Construir-Medir-Aprender"~são necessárias modificações no plano inicial de trabalho para se adequar ao plano de negócios que também está em constante evolução. No contexto de software é importante adotar um processo de desenvolvimento que seja flexível o suficiente para se adequar às mudanças e à velocidade de evolução do plano de negócios.
 
 Nesta seção, abordaremos os conceitos e a literatura sobre métodos ágeis de desenvolvimento de software, um movimento que preconiza metodologias que se adaptam mais facilmente às mudanças e produzem software de melhor qualidade, e que são especialmente adaptados à metodologia da startup enxuta.
 
 As características chave da metodologia de desenvolvimento adotada deve favorecer a criação de protótipos, à realização de testes e experimentos com os clientes,  prover entregas frequentes e incrementais, além de manter uma comunicação eficiente entre os entes do projeto.
-Essas características estão de acordo com as valores propostos pelo Manifesto ágil ~\footnote{\url{http://manifestoagil.com.br/}} em 2001:
+Essas características estão de acordo com as valores propostos pelo Manifesto ágil\footnote{\url{http://manifestoagil.com.br/}} em 2001:
 \begin{itemize}
 \item Indivíduos e interação entre eles mais que processos e ferramentas
 \item Software em funcionamento mais que documentação abrangente
@@ -113,7 +113,7 @@ Apesar de não prescrever reuniões ou cerimônias, mesclar com algumas práticas de
 
 \subsection{Descoberta de Clientes}
 \label{descoberta}
-responsável:Roberto revisor: Fabs\\
+%responsável:Roberto revisor: Fabs\\
 
 O objetivo da descoberta de clientes é o de identificar se existe um problema a ser resolvido, se este problema pode ser resolvido, e se existe um número suficiente de pessoas que utilizariam um produto que resolva o problema. A descoberta de clientes obtém respostas a estas questões sistematicamente através de um processo contínuo de teste e validação com potenciais clientes.
 
@@ -140,10 +140,9 @@ Segundo~\cite{runninglean}, a melhor abordagem é seguir o processo de descoberta
 
 Inicialmente, os fundadores devem fazer uma estimativa aproximada do tamanho do mercado para identificar se a oportunidade é grande o suficiente para a criação de uma startup. Para isso é importante que os fundadores conheçam os termos \textit{TAM}, \textit{SAM} e \textit{Target Market}. O \textit{TAM} é o \textit{Total Addressable Market} ou o tamanho total do mercado. O \textit{SAM} é o \textit{Served Available Market} ou a fatia do mercado que eu posso alcançar através do meu canal de vendas. Finalmente, o \textit{Target Market} é o mercado alvo, ou a fatia do mercado que provavelmente utilizará o produto. Suponha que a startup queira criar um serviço de compartilhamento de fotos de pesca através de uma aplicação para smartphones android. O \textit{TAM} seria o total de pessoas que pescam por hobby e possuem um smartphone. O \textit{SAM} seria a porcentagem destes usuários que possuem um smartphone android. O \textit{Target Market} seria a porcentagem destas pessoas que participam de outras redes sociais e teriam interesse em participar de uma rede social específica para a pesca.
 
-Para estimar o tamanho do mercado,  pode-se usar pesquisas de mercado já existentes (mas não as previsões de evolução do mercado pois elas frequentemente estão erradas) ou ferramentas como o Google Trends~\footnote{\url{www.google.com/trends}} ou o Google AdWords Keyword Planner~\footnote{\url{adwords.google.com/KeywordPlanner}}.
+Para estimar o tamanho do mercado,  pode-se usar pesquisas de mercado já existentes (mas não as previsões de evolução do mercado pois elas frequentemente estão erradas) ou ferramentas como o Google Trends~\footnote{\url{www.google.com/trends}} ou o Google AdWords Keyword Planner\footnote{\url{adwords.google.com/KeywordPlanner}}.
 
-Se a oportunidade for suficientemente grande, formule as demais hipóteses do negócio utilizando um painel (veja Seção~\ref{painel}
-). Nós utilizamos o painel Lean, ou \textit{Lean Canvas}~\ref{canvas}, criado por Ash Maurya, que é um aperfeiçoamento do painel de modelo de negócios proposto por Alex Osterwalder e adotado por Steve Blank em~\cite{Blank2012} com maior foco nos temas de maior risco para startups  (mais detalhes na Seção~\ref{painellean}).
+Se a oportunidade for suficientemente grande, formule as demais hipóteses do negócio utilizando um painel. Nós utilizamos o painel Lean, ou \textit{Lean Canvas}~\ref{painellean}, criado por Ash Maurya, que é um aperfeiçoamento do painel de modelo de negócios proposto por Alex Osterwalder e adotado por Steve Blank em~\cite{Blank2012} com maior foco nos temas de maior risco para startups  (mais detalhes na Seção~\ref{painellean}).
 
 Durante o preenchimento deste painel os fundadores devem tomar algumas decisões importantes para o sucesso do processo de desenvolvimento de cliente. Ao definir a proposta de valor do produto, os fundadores devem também definir um Produto Viável Mínimo (\textit{Minimum Viable Product}, MVP). Quando nos referimos ao ciclo "Construir-Medir-Aprender", o MVP é o menor grupo de funcionalidades que podem funcionar como um produto e resolverem uma parte importante do problema, com o objetivo de aprender algo sobre o cliente e o mercado que ele está inserido. Os diversos tipos de MVP são descritos na Seção~\ref{mvp}.
 
@@ -194,7 +193,7 @@ No livro Manual da Startup, Blank~\cite{Blank2012} define estas duas categorias 
 
 {\bf Protótipo em software} - quando o produto envolve o desenvolvimento de software, é possível criar um MVP contendo um conjunto mínimo de funcionalidades que agregam valor ao cliente.
 
-\textbf{TODO: adicionar mais um pouco de texto e discussão aqui (ex.: MVP de sorveteria não pode ser gelo puro)  - Julian}
+%\textbf{TODO: adicionar mais um pouco de texto e discussão aqui (ex.: MVP de sorveteria não pode ser gelo puro)  - Julian}
 
 %O termo menor produto viável não deve ser entendido como o produto com a menor quantidade de funcionalidades, ou produto simples.
 
@@ -220,7 +219,7 @@ Se a startup está segura que todas hipóteses relacionadas ao problema e à soluçã
 
 \subsection{Validação de Clientes}
 \label{validacao}
-responsável:Roberto revisor: Fabs\\
+%responsável:Roberto revisor: Fabs\\
 
 O objetivo principal da fase de validação de clientes é o de testar a venda do seu produto. Na fase anterior os fundadores verificaram que existe um problema a ser resolvido, que a quantidade de pessoas interessadas na resolução deste problema é grande o suficiente, e que a solução proposta pela startup interessa estas pessoas. Mas é possível gerar uma atividade econômica a partir deste produto? Os clientes pagariam por ele? O modelo de negócios é repetitível, ou seja, novos clientes se comportariam como os clientes dos nossos testes? É possível atrair novos clientes de forma escalável?
 
@@ -239,7 +238,7 @@ A fase de validação de clientes pode ser dividida em 4 etapas: (i) preparação pa
 
 \subsubsection{Preparação para as vendas}
 \label{sec:prepara}
-responsável:Roberto revisor: Fabio\\
+%responsável:Roberto revisor: Fabio\\
 
 Nesta fase, os fundadores colocam em operação todas ferramentas e estrutura necessária para adquirir clientes e analisar os dados de uso do produto pelos clientes. Os fundadores devem, por exemplo, criar campanhas de marketing usando o Google AdWords e colocar em operação um painel de controle que mostre a evolução das métricas AARRR descritas abaixo. 
 
@@ -250,7 +249,7 @@ Também é importante que a startup contrate um Responsável por Análise de Dados p
 
 
 \paragraph{Métricas de uso e o funil de conversão AARRR}
-responsável:Roberto revisor: Fabio\\
+%responsável:Roberto revisor: Fabio\\
 
 As métricas AARRR são um conjunto de métricas inicialmente proposto por Dave McClure que auxiliam os fundadores de uma startup a monitorar o progresso de sua empresa. O objetivo principal ao se utilizar esse conjunto de métricas é o de se concentrar nos números que realmente indicam que a empresa está progredindo no seu modelo de negócios e não deixar que o fundador se iluda com métricas de vaidade: números que enchem o ego dos fundadores (como, por exemplo, o número de downloads de uma aplicação móvel) mas que não se convertem necessariamente em resultado financeiro para a empresa.
 
@@ -288,7 +287,7 @@ Fundadores devem utilizar as métricas AARRR para manter o foco nos pontos import
 
 \paragraph{Análise de Coorte}
 \label{coorte}
-responsável:Julian revisor: Fabio\\
+%responsável:Julian revisor: Fabio\\
 
 Toda a dinâmica descrita neste capítulo envolve experimentações, modifica\-ções e mudanças de rumo da startup com o objetivo de encontrar um consumidor pagante.
 As métricas AARRR apresentadas conseguem nos trazer dados consolidados, em grandes números, e nos dão uma visão geral do desempenho da startup.
@@ -318,7 +317,7 @@ a cada semana. Os dados da coluna na semana 2, por exemplo, mostram que o engaja
 
 
 \subsubsection{Saia do escritório e venda}
-responsável: ? revisor: Fabio\\
+%responsável: ? revisor: Fabio\\
 
 Depois que a estrutura de coleta e análise de dados está montada, é hora de sair do escritório e conseguir os primeiros usuários do produto. Nessa fase, os fundadores devem validar hipóteses do modelo de negócios tais como ``se eu investir R\$100,00 em anúncios no AdWords eu vou obter 30 acessos ao meu site'', ou ``para cada R\$150,00 gastos em Facebook Ads eu terei 10 novas vendas da minha aplicação''.
 
@@ -332,7 +331,7 @@ A cada mudança na sua estratégia de obtenção de clientes, deve-se realizar teste
 
 
 \subsubsection{Ajuste seu produto}
-responsável: ? revisor: Fabio\\
+%responsável: ? revisor: Fabio\\
 
 
 Depois de executadas as duas fases anteriores, o empreendedor deve saber exatamente porque os clientes compram o seu produto e qual a reação dos clientes à sua proposição de valor. Nessa fase, os fundadores devem desenvolver um posicionamento do produto, ajustar o posicionamento do produto ao tipo de mercado, definir o posicionamento da empresa e realizar apresentações para pessoas influentes da indústria para validar os posicionamentos.
@@ -346,7 +345,7 @@ O posicionamento do produto deve ser um resumo de uma página explicando o objeti
 O posicionamento da empresa deve responder a perguntas do tipo ``O que essa empresa pode fazer por mim?'', ``Por que eu faria negócios com eles?'' ou ``Por que essa empresa existe e por que eles são diferentes?''. Escreva a primeira versão da forma mais simples possível, sempre colocando os clientes em primeiro lugar. Assim como o posicionamento do produto, o posicionamento da empresa deve ser um resumo que irá guiar a elaboração de outros documentos de marketing (anúncios à imprensa, apresentações de venda, websites) e garantir que a mensagem é consistente em todo material de marketing.
 
 \paragraph{Encaixe Produto/Mercado (Product/Market FIT)}
-responsável: fabs revisor: Julian
+%responsável: fabs revisor: Julian
 
 Marc Andressen, co-fundador da \emph{Netscape} e criador do \emph{Mosaic}, navegador popularmente conhecido como responsável pela popularização do \emph{www} costuma definir o Encaixe Produto/Mercado como a única coisa que importa em uma startup. Para esse empreendedor e investidor, quando uma startup falha, é porque não conseguiu atingir esse \emph{fit}, quando dá certo, é porque atingiu um encaixe entre o produto, e um mercado de clientes que deseja o produto. 
 
@@ -383,7 +382,7 @@ Para que essa decisão seja fundamentada em dados obtidos pela startup durante o 
 \subsection{Painel de Negócio}
 \label{painel}
 
-responsável: fabs revisor: jm
+%responsável: fabs revisor: jm
 
 Em uma empresa tradicional, é função do Plano de Negócios ser a fonte das definições a respeito dos objetivos de uma empresa, as razões pelas quais se acredita que sejam atingíveis (as hipóteses) e o plano para atingir esses objetivos. Tais planos podem variar de algumas a muita dezenas de páginas, sendo as vezes documentos precisos a respeito do plano. Em uma startup porém, governam incertezas a respeito do negócio, e o cenário está em constante mudança, com pivos acontecendo e a estratégia sendo desenvolvida \emph{on the fly}. 
 
