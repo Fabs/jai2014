@@ -28,9 +28,9 @@ A submissão: https://docs.google.com/a/tailorbirds.com.br/document/d/1B6C2ssfkz
 
     [Roberto/xxx]   3.3 Descoberta de Clientes
     [Roberto/xxx]   3.3.1 Detalhando a visaao dos fundadores
-    [Julian/xxx]  3.3.2 Menor Produto Viavel(MPV)
-    [Roberto/xxx  3.3.3 Saia do escritorio e aprenda
-    [Roberto/xxx] 3.3.4 Pivote ou continue
+    [Julian/xxx]    3.3.2 Menor Produto Viavel(MPV)
+    [Roberto/xxx    3.3.3 Saia do escritorio e aprenda
+    [Roberto/xxx]   3.3.4 Pivote ou continue
   
    [Roberto/xxx] 3.4Validacao de Clientes
    [Julian/xxx]  3.4.1Preparacao para as vendas
